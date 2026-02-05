@@ -1,0 +1,135 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Document Intelligence Console</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scanline"></div>
+    <main class="shell">
+      <header class="hero">
+        <div class="hero-text">
+          <p class="kicker">Document Intelligence & Semantic Search</p>
+          <h1>Research Console</h1>
+          <p class="sub">
+            Upload PDFs, inspect OCR, and run semantic search — locally and
+            transparently.
+          </p>
+        </div>
+        <div class="hero-badge">
+          <div class="badge-core">
+            <span>LOCAL</span>
+            <small>no cloud</small>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Connection</h2>
+          <p>Point to your FastAPI server.</p>
+        </div>
+        <div class="panel-body">
+          <label class="field">
+            <span>API Base URL</span>
+            <input id="apiBase" value="http://localhost:8000" />
+          </label>
+          <button id="ping" class="btn ghost">Health Check</button>
+          <div id="health" class="status">Idle</div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Ingest PDF</h2>
+            <p>Upload a document to run OCR + indexing.</p>
+          </div>
+          <div class="panel-body">
+            <label class="file-drop">
+              <input id="pdfInput" type="file" accept="application/pdf" />
+              <span>Drop PDF or click to browse</span>
+            </label>
+            <button id="upload" class="btn">Run Ingestion</button>
+            <div id="ingestStatus" class="status">Waiting for file</div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>Semantic Search</h2>
+            <p>Search across indexed chunks.</p>
+          </div>
+          <div class="panel-body">
+            <label class="field">
+              <span>Query</span>
+              <input id="query" placeholder="e.g., licensing terms for data sharing" />
+            </label>
+            <label class="field">
+              <span>Top K</span>
+              <input id="topK" type="number" min="1" max="20" value="5" />
+            </label>
+            <button id="search" class="btn">Search</button>
+            <div id="searchStatus" class="status">No search yet</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="panel">
+          <div class="panel-head">
+            <h2>QA (Grounded)</h2>
+            <p>Answers are extracted only from retrieved chunks.</p>
+          </div>
+          <div class="panel-body">
+            <label class="field">
+              <span>Question</span>
+              <input id="qaQuestion" placeholder="e.g., What is the contract duration?" />
+            </label>
+            <label class="field">
+              <span>Top K</span>
+              <input id="qaTopK" type="number" min="1" max="20" value="5" />
+            </label>
+            <button id="qaBtn" class="btn">Ask Question</button>
+            <div id="qaStatus" class="status">No question asked</div>
+            <div id="qaAnswer" class="qa-answer"></div>
+            <button id="qaToggle" class="btn ghost">Show Contexts</button>
+            <div id="qaContexts" class="qa-contexts hidden"></div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <h2>OCR Output</h2>
+            <p>Inspect page text from the latest document.</p>
+          </div>
+          <div class="panel-body">
+            <div class="toolbar">
+              <button id="loadDoc" class="btn ghost">Load Latest OCR</button>
+              <span id="docMeta" class="status">No document loaded</span>
+            </div>
+            <div id="pages" class="pages"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Results</h2>
+          <p>Top matching chunks with similarity scores.</p>
+        </div>
+        <div class="panel-body">
+          <div id="results" class="results"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Built for a Master 2 mini-project • Local-first, explainable AI pipeline</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

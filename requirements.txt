@@ -1,0 +1,8 @@
+﻿fastapi
+uvicorn
+paddleocr
+pymupdf
+opencv-python
+sentence-transformers
+faiss-cpu
+spacy
