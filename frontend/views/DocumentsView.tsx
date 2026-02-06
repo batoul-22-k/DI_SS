@@ -11,11 +11,12 @@ import {
   Loader2,
   Maximize2,
   MoreHorizontal,
+  RefreshCw,
   Search,
   Upload,
 } from 'lucide-react';
 import type { DocumentPayload, IngestMetadata } from '../types';
-import { fetchDocument, ingestPdf } from '../services/api';
+import { fetchDocument, ingestPdf, listDocuments } from '../services/api';
 import { upsertDocument } from '../services/storage';
 
 interface DocumentsViewProps {
@@ -36,6 +37,8 @@ const DocumentsView: React.FC<DocumentsViewProps> = ({
   const [docError, setDocError] = useState<string | null>(null);
   const [isDocLoading, setIsDocLoading] = useState(false);
   const [pageIndex, setPageIndex] = useState(0);
+  const [isRefreshing, setIsRefreshing] = useState(false);
+  const [refreshError, setRefreshError] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
 
   const filteredDocs = useMemo(() => {
@@ -56,14 +59,25 @@ const DocumentsView: React.FC<DocumentsViewProps> = ({
     setPageIndex(0);
     fetchDocument(selectedDoc.doc_id)
       .then((payload) => setDocPayload(payload))
-      .catch(() =>
-        setDocError('Unable to load OCR output for this document.')
-      )
+      .catch(() => setDocError('Unable to load OCR output for this document.'))
       .finally(() => setIsDocLoading(false));
   }, [selectedDoc]);
 
   const handleUploadClick = () => {
     fileInputRef.current?.click();
+  };
+
+  const handleRefresh = async () => {
+    setIsRefreshing(true);
+    setRefreshError(null);
+    try {
+      const data = await listDocuments();
+      onDocumentsChange(data);
+    } catch (err) {
+      setRefreshError('Failed to refresh from backend.');
+    } finally {
+      setIsRefreshing(false);
+    }
   };
 
   const handleFileChange = async (
@@ -287,6 +301,18 @@ const DocumentsView: React.FC<DocumentsViewProps> = ({
             onChange={handleFileChange}
           />
           <button
+            onClick={handleRefresh}
+            disabled={isRefreshing}
+            className="flex items-center gap-2 px-3 py-2 border border-slate-200 rounded-lg text-xs font-semibold text-slate-600 hover:bg-slate-50 disabled:opacity-60"
+          >
+            {isRefreshing ? (
+              <Loader2 size={14} className="animate-spin" />
+            ) : (
+              <RefreshCw size={14} />
+            )}
+            Refresh
+          </button>
+          <button
             onClick={handleUploadClick}
             disabled={isUploading}
             className="flex items-center gap-2 px-3 py-2 bg-teal-600 text-white rounded-lg text-xs font-semibold hover:bg-teal-700 disabled:opacity-60"
@@ -326,6 +352,11 @@ const DocumentsView: React.FC<DocumentsViewProps> = ({
       {uploadError && (
         <div className="bg-red-50 border border-red-100 text-red-700 text-xs p-3 rounded">
           {uploadError}
+        </div>
+      )}
+      {refreshError && (
+        <div className="bg-red-50 border border-red-100 text-red-700 text-xs p-3 rounded">
+          {refreshError}
         </div>
       )}
 
