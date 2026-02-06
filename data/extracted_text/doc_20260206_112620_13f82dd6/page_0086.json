@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 86,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n86 \n \nAfter evaluating the performance of our models based on \nvalidation loss, character error rate (CER), and accuracy metrics, distinct \noutcomes were observed across different architectures: \n \n VGG19: Validation loss of 0.6, CER of 5.4%, and accuracy of 94.6%. \n EfficientNetB1: Validation loss of 0.78, CER of 7.3%, and accuracy \nof 92.7%. \n ResNet152: Superior results with a validation loss of 0.3, CER of \n2.96%, and accuracy of 97.04%. \n \nThese findings highlight that ResNet152 outperformed both VGG19 and \nEfficientNetB1 across all evaluated metrics, making it the most effective \nmodel for our specific task.  \n \nThe comparison between the models' performance is summarized in \nTable 2, emphasizing ResNet152's superiority. Additionally, Figure 7.6  \ndepicting the CER and loss of the ResNet152 model throughout the \nepochs shows a noticeable decrease in error, particularly in the final \nepochs. \n \nModel \nValidation Loss Character Error Rate Accuracy\nVGG19 \n0.6 \n5.4% \n94.6% \nEfficientNetB1 0.78 \n7.3% \n92.7% \nResNet152 \n0.3 \n2.96% \n97.04% \nTable 2: Comparison Between CNN Architectures Performance \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0086.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0086.png",
+  "ocr_fallback": true
+}

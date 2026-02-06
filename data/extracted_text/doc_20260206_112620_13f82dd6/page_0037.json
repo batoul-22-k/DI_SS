@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 37,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n37 \n3.1.2 DocTr: Document Image Transformer \n \n \nTo address the limitations of the naive approach, we adopted a \nstate-of-the-art method called DocTr: Document Image Transformer \n[46][47][48][49]. DocTr leverages deep learning techniques to perform \nboth geometric unwarping and illumination correction, ensuring high-\nquality preprocessing of handwritten document images.  \n \nDocTr utilizes a transformer-based model to understand and correct \ndistortions in document images. The model is trained on a large dataset \nof document images, learning to recognize and rectify common issues \nsuch as geometric distortions and uneven lighting. By analyzing the \nspatial relationships within the image, the transformer can accurately \npredict the necessary transformations to straighten the text and \nnormalize the lighting, resulting in a clear and well-aligned image. \n \nThe process begins with the model taking an image of the handwritten \ndocument and generating a set of transformation parameters. These \nparameters include adjustments for geometric distortions, such as skew \nand curvature. The image is then processed using these parameters, \nproducing a flattened and uniformly lit output. This advanced \npreprocessing technique significantly enhances the quality of the input \nimage for subsequent OCR tasks, leading to more accurate recognition \nof handwritten text, an illustrative example of this process can be found \nin Figure 3.2 [46]. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0037.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0037.png",
+  "ocr_fallback": true
+}

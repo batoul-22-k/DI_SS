@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 97,
+  "text": "CHAPTER 8 \nCONCLUSION AND FUTURE WORK\n \n97 \ntypically involve filling in bubbles for multiple-choice questions or \nwriting short answers in designated areas. \n Optical Mark Recognition (OMR): The software utilizes OMR \ntechnology to recognize marks or written responses on the \nanswer sheets. OMR can translate these marks into digital data for \nfurther processing. \n Answer Key Integration: Educators can input the correct answers \nor answer patterns for each question into the software. \n Automatic Scoring: The software compares students' responses \non the scanned sheets with the answer key, automatically \ncalculating scores for each student and potentially the entire class. \n Data Analysis and Reporting: Some software may offer features \nfor generating reports that summarize student performance and \nprovide insights into class-wide understanding or areas where \nstudents might need additional support. \n \nThe use of Automatic Exam Grading Software is becoming increasingly \ncommon as technology advances. However, it's important to use it \nstrategically, understanding its limitations and ensuring effective \nintegration with other assessment methods. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0097.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0097.png",
+  "ocr_fallback": true
+}

@@ -1,7 +1,7 @@
 ﻿"""Search API endpoints."""
 from __future__ import annotations
 
-from typing import List
+from typing import List, Optional
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
@@ -15,7 +15,7 @@ router = APIRouter()
 
 class SearchRequest(BaseModel):
     query: str = Field(..., min_length=1)
-    top_k: int | None = None
+    top_k: Optional[int] = None
 
 
 class SearchResult(BaseModel):
@@ -24,7 +24,7 @@ class SearchResult(BaseModel):
     chunk_index: int
     text: str
     score: float
-    source: str | None = None
+    source: Optional[str] = None
 
 
 class SearchResponse(BaseModel):
@@ -32,7 +32,7 @@ class SearchResponse(BaseModel):
     results: List[SearchResult]
 
 
-_store: FaissVectorStore | None = None
+_store: Optional[FaissVectorStore] = None
 
 
 def _get_store() -> FaissVectorStore:
@@ -48,6 +48,12 @@ def _get_store() -> FaissVectorStore:
             ) from exc
         _store = store
     return _store
+
+
+def clear_store() -> None:
+    """Clear cached FAISS store so new data is loaded on next request."""
+    global _store
+    _store = None
 
 
 @router.post("/search", response_model=SearchResponse)

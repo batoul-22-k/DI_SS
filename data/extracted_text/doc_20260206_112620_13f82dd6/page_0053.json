@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 53,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n53 \n4.2.1.2.3 Benefits Of Image-Tag App in Our Project: \n \n \nImproved Data Quality: Manual labeling ensures accurate and \nreliable data, leading to enhanced model precision and effectiveness. \n \nStreamlined Training Process: The program creates a ready-to-use \nlabeled dataset, reducing time and effort in data preparation and \noptimizing model training. \n \nOrganized Data Management: Storage of labels in a database and \nexport functionality to CSV maintains an organized system for managing \nlabeled data, enhancing data management efficiency. \nIn essence, this program is a pivotal component in developing an \neffective and robust model. The meticulous labeling process and \nstructured data management it offers are foundational elements in \nachieving success in machine learning endeavors. \n \n4.2.1.3 Tagger امّوس  \n \n \nTo improve our web application, we later rewrote it from scratch \nand added user login functionality to enable secure access to our app. \nThis login functionality includes creating user accounts using \nauthentication rules such as passwords. \n \nApplication concurrent work support was also a crucial thing, allowing \nmultiple users to collaborate on the same project simultaneously with \nfeatures such as real-time updates and version control. We also \nimproved the user interface for the aim of simplifying the user interface \nand improving ease of use and adoption.  We also used the dark blue \ntheme for the text readability. \n \nThese improvements make the application more powerful, secure, and \neasy to use, meeting the needs of individual and group workflows. \nThis is what the “Tagger  ﺎمّوﺳ” application aims to achieve, and through \nit we were able to create a dataset that helped in developing our model. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0053.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0053.png",
+  "ocr_fallback": true
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 28,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n28 \n Limited support for non-Arabic scripts. \n Runs exclusively on Windows operating systems. \n \nGiven the limitations of each of these solutions, there is a clear need for \na different one; one that can address the unique challenges of \nunconstrained Arabic handwriting recognition. Our proposed approach \naims to fill this gap by leveraging state-of-the-art deep learning \ntechniques, robust feature representations, and innovative model \narchitectures. By focusing on the variability in Arabic handwriting styles \nand employing comprehensive pre- and post-processing methods, our \nsolution seeks to achieve higher accuracy and adaptability, making it a \nmore effective tool for diverse applications. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0028.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0028.png",
+  "ocr_fallback": true
+}

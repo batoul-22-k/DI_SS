@@ -41,7 +41,7 @@ def group_lines_into_blocks(
     for block_index, block_lines in enumerate(blocks):
         xs = [ln["bbox"][0] for ln in block_lines] + [ln["bbox"][2] for ln in block_lines]
         ys = [ln["bbox"][1] for ln in block_lines] + [ln["bbox"][3] for ln in block_lines]
-        bbox = (int(min(xs)), int(min(ys)), int(max(xs)), int(max(ys))))
+        bbox = (int(min(xs)), int(min(ys)), int(max(xs)), int(max(ys)))
         text = "\n".join(str(ln["text"]) for ln in block_lines).strip()
         block_payloads.append(
             {

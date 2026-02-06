@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 92,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n92 \n \nCombining the 58,474 samples from the alphabet dataset with the \n50,145 samples from the KHATT Dataset, the model was trained on a \ntotal of 108,619 samples. Through this comprehensive training regimen, \nour model achieved outstanding results showing performance as in \nFigure 7.10, boasting a CER of only 3% on the test set and an Accuracy \nof 97%. These metrics underscore the model's robustness and accuracy \nin recognizing handwritten Arabic text, demonstrating its effectiveness \nin real-world applications.  \n \nThis final model represents a culmination of rigorous experimentation, \nmeticulous parameter tuning, and leveraging the power of transfer \nlearning. Its high accuracy and low error rate position it as a reliable tool \nfor applications requiring precise recognition of Arabic characters and \ntext, validating its capability as our definitive and highly effective model. \n \n \nFigure 7.10: ResNet50V2 Trained on Alphabet from KHATT Dataset \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0092.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0092.png",
+  "ocr_fallback": true
+}

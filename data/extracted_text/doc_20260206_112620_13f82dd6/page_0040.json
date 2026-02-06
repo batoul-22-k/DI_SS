@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 40,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n40 \nthe starting node to the open set and then repeatedly selects the node \nwith the lowest estimated total cost (the sum of the actual cost to reach \nthat node and the estimated cost to reach the goal) from the open set, \nmoves it to the closed set, and then explores its neighbors. \n \n \nFigure 3.3: Example of line segmentation \n \n \nWith the text lines now accurately segmented, we turned our \nattention to the horizontal dimension to extract words, utilizing a similar \napproach except using the horizontal histogram instead of vertical. This \nhistogram projects the pixel distributions along the horizontal axis, \nenabling the identification of individual words within each line of text. By \napplying thresholding and pathfinding techniques, the system can \neffectively separate the words, preparing them for character-level \nrecognition. \n \nFinally, the segmentation process extends to the sub-word or island \nlevel, where each word is further broken down into its constituent \ncharacters or subcomponents. This granular analysis is crucial for \naccurate optical character recognition, as it allows the system to \nidentify and interpret the individual features that make up the textual \ncontent. By systematically decomposing the text into these hierarchical \ncomponents, the OCR algorithm can achieve a high degree of accuracy \nin extracting and interpreting the written information and Figure 3.4 \nshows how word segmentation works. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0040.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0040.png",
+  "ocr_fallback": true
+}

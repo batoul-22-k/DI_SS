@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 5,
+  "text": " \nPUBLICATIONS\n \n5 \nSecond Publication: We are also pleased to announce that our research, \ntitled \"A Comprehensive Approach to Arabic Handwriting Recognition: \nDeep Convolutional Networks and Bidirectional Recurrent Models for \nArabic Scripts,\" has been published in the International Journal of \nTelecommunications (IJT), Volume 15, on June 15, 2024. This study, \nauthored by Ayman Saber Gad Mohammed, Ahmed Taha Ahmed Abd El \nRahim, and Khaled Abd El Salam from the Faculty of Engineering's \nElectrical Department, delves into cutting-edge deep learning \ntechniques for recognizing Arabic handwriting. By leveraging \nConvolutional Neural Networks (CNNs) and Bidirectional Long Short-\nTerm Memory (Bi-LSTM) networks, our method achieved outstanding \nresults, including a character error rate of roughly 2.96% and an \naccuracy rate of 97.04% on the KHATT dataset. These results \nsignificantly \nsurpass \ntraditional \napproaches, \nunderscoring \nour \nsubstantial contributions to the domain of Arabic handwriting \nrecognition. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0005.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0005.png",
+  "ocr_fallback": true
+}

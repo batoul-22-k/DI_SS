@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 72,
+  "text": "CHAPTER 6 \nAPPLICATION\n \n72 \nperformance. This division of labor allows the front-end to focus on \nproviding a smooth user experience while the back end manages the \ncomplex computations, ensuring that our application is both user-\nfriendly and highly effective. \n \n6.2.1 Frontend \n \nIn the Frontend, we designed a web application which can be used \nby the user. It works by uploading an image that has the text which will \nbe converted to a digital text by our system.  \nThe website was created using HTML5, CSS3, JavaScript, and React JS \nfrontend framework.  \n \n6.2.1.1 Native Application \n \nA native application is a software program designed specifically \nfor use on a particular platform or device. Unlike web applications that \nrun in a browser, native applications are developed using platform-\nspecific programming languages and tools. This allows for better \nperformance, integration with device hardware, and a more seamless \nuser experience.  \n \nWe decided against using native applications because they are typically \nlimited to a single platform, requiring separate versions for iOS, Android, \nand other operating systems, which significantly increases development \ntime and costs. Moreover, native applications often demand powerful \nresources and frequent updates to maintain compatibility with new \noperating system versions and devices. This results in higher \nmaintenance efforts and resource allocation, making native applications \nless efficient for our project needs. \n \n6.2.1.2 Web Technology \n \n \nWeb technology refers to the tools, software, and programming \nlanguages used to create and maintain websites and web applications. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0072.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0072.png",
+  "ocr_fallback": true
+}

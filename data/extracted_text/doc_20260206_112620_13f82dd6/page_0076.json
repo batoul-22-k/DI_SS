@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 76,
+  "text": "CHAPTER 6 \nAPPLICATION\n \n76 \n6.2.2 Backend \n \n \nThe backend is the part of the system responsible for processing \ninput images using the segmentation system and then passing these \nimages to the model for recognition, ultimately returning the labels. It \nserves the crucial purpose of offloading the computationally intensive \ntasks from the frontend, ensuring that the user interface remains \nresponsive and efficient. \n \n6.2.2.1 Developing an API \n \n \nIn a frontend-backend model application, an API (Application \nProgramming Interface) is essential for communication between the \ntwo parts. The API allows the frontend to send image data to the \nbackend, where it can be processed, and then receive the recognized \nlabels. This separation of concerns ensures that each part of the \napplication can be developed and maintained independently, improving \nmodularity and scalability. \n \n6.2.2.2 Fake API \n \n \nInitially, we developed a simple fake API that processed the image \nin an arbitrary way and returned predefined labels. This fake API was \ncrucial for testing the API's functionality and determining which package \nto use for developing the final API. By simulating the backend's behavior, \nwe were able to make informed decisions about the tools and \nframeworks we would employ. \n \n6.2.2.3 FastAPI \n \n \nFastAPI is a modern, fast (high-performance) web framework for \nbuilding APIs with Python 3.6+ based on standard Python-type hints. It is \ndesigned to be easy to use and deploy, offering automatic interactive \nAPI documentation. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0076.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0076.png",
+  "ocr_fallback": true
+}

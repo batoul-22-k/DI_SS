@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 66,
+  "text": "CHAPTER 5 \nAI SYSTEM\n \n66 \nin tasks like character recognition. Key metrics used include accuracy, \nprecision, recall, and the character error rate (CER) [85]. \n \nThe CER is calculated using equation 1 \n \n𝐶𝐸𝑅= (𝑖+ 𝑠+ 𝑑) / 𝑛\n(1) \n \n \nHere, i denotes the number of insertion errors where extra \ncharacters are predicted, s represents substitution errors where \nincorrect characters are predicted, and d indicates deletion errors \nwhere characters in the ground truth are missing from the prediction. \nThe total number of characters evaluated is denoted by n. Additionally, \nCER is closely related to the Levenshtein distance, which measures the \nminimum number of single-character edits (insertions, deletions, or \nsubstitutions) required to transform one string into another as shown in \nFigure 5.3. By considering these factors, the CER provides a \ncomprehensive measure of how well a model performs in generating \ncorrect character sequences. A lower CER indicates higher accuracy, as \nit signifies fewer errors in character prediction relative to the ground \ntruth, crucial for evaluating models in handwriting recognition, OCR, and \nother applications requiring precise character transcription. \n \n \nFigure 5.3: Demonstration of CER Metric \n \n5.4 Dealing with Characters’ Sequence: Bi-LSTM \n \n \nLong Short-Term Memory networks (LSTMs) Shown in Figure 5.4 \n[86] are a specialized type of recurrent neural network (RNN) designed \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0066.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0066.png",
+  "ocr_fallback": true
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 17,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n17 \n \nCHAPTER 1 INTRODUCTION \n1.1  Overview \n \n \nOptical Character Recognition (OCR) is a technology that enables \nthe conversion of different types of documents, such as scanned paper \ndocuments, PDF files, or images captured by a digital camera, into \neditable, searchable and machine-readable data [1][2][3][4][5]. OCR \nsystems work by analyzing the text in these documents and translating \nit into machine-encoded text. \nArabic Handwriting Recognition (AHR) is a specialized subset of OCR \nfocused on recognizing and digitizing handwritten Arabic scripts [6][7]. \n \n1.1.1 OCR Overview \n \n \nOCR systems use various techniques to recognize and extract \ncharacters from images or scanned documents, allowing them to be \nedited, searched, and processed digitally [8]. \n \nOCR has greatly simplified the digitization process of printed \ndocuments, making it easier to convert large volumes of physical \ndocuments into electronic formats [3][9].  \n \nIt has also made it possible to extract text from images, such as \nphotographs or screenshots, enabling the recognition of text in various \ncontexts [10]. \n \nOCR is widely used as a form of data entry from printed paper data \nrecords. whether passport documents, invoices, bank statements, \ncomputerized receipts, business cards, mail, printed data, or any \nsuitable documentation [3]. It is a common method of digitizing printed \ntexts so that they can be electronically edited, searched, stored more \ncompactly, displayed online, and used in machine processes such as \ncognitive computing, machine translation, (extracted) text-to-speech, \nkey data and text mining.  \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0017.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0017.png",
+  "ocr_fallback": true
+}

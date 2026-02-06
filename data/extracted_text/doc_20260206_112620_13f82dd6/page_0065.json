@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 65,
+  "text": "CHAPTER 5 \nAI SYSTEM\n \n65 \nhand, larger batch sizes offer more stable updates and require more \nmemory, often leading to more efficient training. \n \n5.2.2 Epochs \n \n \nEpochs indicate how many times the entire dataset is passed \nthrough the model during training. Increasing the number of epochs \nallows the model to learn more thoroughly, but too many epochs can \nlead to overfitting, where the model performs well on the training data \nbut poorly on new, unseen data [83]. \n \n5.2.3 Optimizer \n \n \nThe optimizer is the algorithm that governs how the model's \nparameters are updated during training. Common optimizers include \nAdam and Stochastic Gradient Descent (SGD). The choice of optimizer \nsignificantly affects the speed and quality of convergence to the \nminimum of the loss function, impacting overall model performance \n[84]. \n \n5.2.4 Learning Rate \n \n \nThe learning rate influences the step size at each iteration while \nmoving toward the minimum of the loss function. A higher learning rate \ncan lead to faster convergence but might overshoot the minimum, \ncausing instability. Conversely, a lower learning rate ensures more \nprecise convergence but may take longer and could get stuck in local \nminima [83]. Proper tuning of these hyperparameters is essential for \nachieving a well-performing and generalized model. \n \n5.3 Defining Model Evaluation \n \n \nModel evaluation metrics are essential for assessing the \nperformance and effectiveness of machine learning models, particularly \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0065.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0065.png",
+  "ocr_fallback": true
+}

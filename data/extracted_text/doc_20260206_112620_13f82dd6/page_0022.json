@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 22,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n22 \nThe process of Arabic handwriting recognition typically involves several \nsteps: \nFirst, the handwritten document or text is scanned or captured to create \na digital image. Then, the recognition software analyzes the image and \napplies various techniques to segment the text into individual characters \nor words. These techniques may include stroke analysis, contour \ndetection, and shape recognition. \n \nOnce the text is segmented, the recognition software compares the \nshapes and patterns of the characters against a database of known \nArabic characters or employs machine learning algorithms to improve \nrecognition accuracy. These algorithms are trained on large datasets of \nlabeled Arabic handwriting samples to learn the variations and patterns \nin Arabic handwriting. \n \nArabic handwriting recognition has several applications across different \ndomains [7]. It can be used to digitize handwritten Arabic documents, \nallowing for easier storage, search ability, and editing of the content. It \nalso enables the integration of Arabic handwriting input in devices such \nas tablets or smartphones, facilitating natural and convenient input \nmethods for Arabic users. Additionally, Arabic handwriting recognition \nplays a crucial role in text mining, information retrieval, and language \nprocessing tasks that involve handwritten Arabic text. \n \n1.2  Problem Definition \n \n \nThe field of Arabic handwriting recognition has gained significant \ninterest in recent years due to its practical applications in various \ndomains, including document analysis, automatic text recognition, and \npostal services. The ability to accurately recognize handwritten Arabic \ntext poses a significant challenge due to the complexities of Arabic \ncalligraphy and the inherent variations in writing styles. Consequently, \nthe development of powerful and effective techniques for Arabic \nhandwriting recognition has become a pressing matter. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0022.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0022.png",
+  "ocr_fallback": true
+}

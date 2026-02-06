@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 74,
+  "text": "CHAPTER 6 \nAPPLICATION\n \n74 \nmaking it easier to manage and update different parts of the UI [91]. \nComponents can be nested within each other to create complex \ninterfaces.  \n \nReact uses a virtual DOM (Document Object Model) to efficiently update \nand render components. When the state of a component changes, \nReact only updates the necessary parts of the DOM, resulting in faster \nperformance and improved user experience. This approach helps to \nminimize unnecessary re-renders and optimize the rendering process.  \n \nReact also allows developers to create declarative and composable UI \ncomponents. With React, developers can easily compose complex UI \nelements by combining smaller components, which helps in writing \nclean, maintainable, and modular code [92]. \n \nWe decided to name our app “ضاد الرقمية” as it encapsulates how our app \nwork with the Arabic language in a digital world, Figure 6.1 shows the \nhome page design of our app. \n \n \nFigure 6.1: Screenshot of Main Page \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0074.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0074.png",
+  "ocr_fallback": true
+}

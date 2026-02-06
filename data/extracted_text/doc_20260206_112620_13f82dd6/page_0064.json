@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 64,
+  "text": "CHAPTER 5 \nAI SYSTEM\n \n64 \n \nFigure 5.2: Dataset Samples \n \n5.2 Defining The Training Process \n \n \nThe training process utilizes the prepared data to teach the model \nto make accurate predictions by iteratively adjusting its parameters to \nminimize error [81]. During this phase, the model undergoes multiple \ncycles of learning, where it continuously refines its internal parameters \nto better capture the patterns and relationships within the data. This \nprocess involves feeding the data into the model, calculating the loss or \nerror between the predicted and actual values, and then updating the \nmodel’s parameters to reduce this loss. Through repeated iterations, the \nmodel gradually improves its performance, learning to generalize from \nthe training data to make accurate predictions on unseen data. Several \ncrucial key hyperparameters are adjusted during this phase mentioned \nbelow. \n \n5.2.1 Batch Size \n \n \nThe batch size in machine learning determines the number of \ntraining samples used in one iteration. Smaller batch sizes provide more \nfrequent updates, which can introduce noise into the learning process \nbut can help the model to learn more detailed patterns [82]. On the other \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0064.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0064.png",
+  "ocr_fallback": true
+}

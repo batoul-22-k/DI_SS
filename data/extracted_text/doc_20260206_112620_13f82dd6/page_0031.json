@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 31,
+  "text": "CHAPTER 2 \nSYSTEM PLANNING\n \n31 \n2.2 Problems with Performing OCR \n \n \nDeveloping Optical Character Recognition (OCR) for Arabic \npresents unique challenges due to the linguistic and script \ncharacteristics of the Arabic language [43]. Addressing these challenges \nrequires a combination of advanced image processing techniques, \nrobust language models, and extensive training data tailored specifically \nfor the Arabic language and its various degrees. Continued research and \ndevelopment in these areas are crucial for improving the accuracy and \nreliability of Arabic OCR systems. \n \n2.2.1 Geometric Warping \n \n \nGeometric unwarping is a critical pre-processing step in the \ndevelopment of Optical Character Recognition (OCR) systems, \nparticularly for languages such as Arabic. The process involves \ncorrecting distortions in the scanned images of documents to ensure \nthat the text is accurately recognized. \n \n2.2.1.1 \nAngle of Taking the Picture \n \n Distortion and Perspective: The angle at which a photo is taken can \nintroduce distortion and perspective issues. Text may appear \nskewed or warped, making it harder for optical character \nrecognition (OCR) software to accurately interpret characters. \n \n Reflections and Glare: Depending on the lighting conditions and \nangle, reflections and glare can obscure parts of the text, reducing \nOCR accuracy. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0031.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0031.png",
+  "ocr_fallback": true
+}

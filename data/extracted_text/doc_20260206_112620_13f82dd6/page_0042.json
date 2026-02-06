@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 42,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n42 \ninaccurate segmentation. This issue becomes particularly problematic \nwhen dealing with handwritten or scanned documents, where text lines \ncan exhibit significant skewness due to various factors, such as uneven \npage orientation or the user's natural handwriting inclination. \n \nThe second challenge is the difficulty in determining the appropriate \nthreshold for separating text lines and words. The method typically relies \non identifying peaks in the vertical histogram to locate the text lines, but \nthe selection of the threshold value can be a complex task, especially in \nthe presence of varying text densities or irregular spacing between \nwords. If the threshold is set too high, it may fail to detect some text \nlines, while a low threshold can result in over-segmentation, where \nindividual words are incorrectly identified as separate lines. This problem \nis further exacerbated in documents with complex layouts, such as \nthose with text interleaved with graphics or tables, where the histogram \nmay not provide a clear distinction between text and non-text regions. \n \n3.3 CRAFT: Character Region Awareness for Text Detection \n \n \nCRAFT, or Character Region Awareness for Text Detection, is a \nmodel designed to detect text in images [54]. It operates by generating \na heat map that highlights areas in the image where text is likely to be \npresent (Figure 3.6). This heat map assists in identifying and localizing \ntext within the image, making it a valuable tool for text detection in \nvarious contexts, including OCR for handwritten documents. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0042.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0042.png",
+  "ocr_fallback": true
+}

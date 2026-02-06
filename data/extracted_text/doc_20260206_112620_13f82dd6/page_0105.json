@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 105,
+  "text": " \nREFERENCES\n \n105 \n[74] A. Hannun, “Sequence Modeling with CTC,” Distill, vol. 2, no. 11, 2017, \ndoi: 10.23915/distill.00008. \n[75] G. Agrawal, S. Taqvi, and R. Gulati, “Machine Learning with \nTensorFlow and PyTorch: A Comparative Analysis,” RES MILITARIS, \nvol. 10, no. 1, pp. 172–179, 2020. \n[76] NVIDIA 2020, “NVIDIA GeForce RTX 3060 Family.”  \n[77] “Data-centric AI: A complete primer,” Snorkel AI, May 17, 2022. \n[Online]. Available: https://snorkel.ai/data-centric-ai-primer/ \n[78] M. A. Khan, “Arabic handwritten alphabets, words and paragraphs \nper user (AHAWP) dataset,” Data Brief, vol. 41, p. 107947, Jul. 2024, \ndoi: 10.1016/j.dib.2022.107947. \n[79] S. Raschka, “Training-validation-test split and cross-validation \ndone \nright.” \n2020. \n[Online]. \nAvailable: \nhttps://machinelearningmastery.com/train-test-split-and-cross-\nvalidation-for-model-evaluation/ \n[80] C. Shorten and T. M. Khoshgoftaar, “A survey on Image Data \nAugmentation for Deep Learning,” J Big Data, vol. 6, no. 1, p. 60, \n2019, doi: 10.1186/s40537-019-0197-0. \n[81] Inc. Kolena, “Model Training in AI/ML: Process, Challenges, and Best \nPractices,” \nKolena, \n2023, \n[Online]. \nAvailable: \nhttps://www.kolena.com/blog/model-training-process \n[82] Dataheroes.ai, “Machine Learning Model Training,” Dataheroes, \n2023, [Online]. Available: https://www.dataheroes.ai/machine-\nlearning-model-training \n[83] ProjectPro.io, “How to Train a Machine Learning Model: The \nComplete \nGuide,” \nProjectPro, \n2023, \n[Online]. \nAvailable: \nhttps://www.projectpro.io/article/how-to-train-a-machine-\nlearning-model \n[84] Inc. Kolena, “Model Training in AI/ML: Process, Challenges, and Best \nPractices,” \nKolena, \n2023, \n[Online]. \nAvailable: \nhttps://www.kolena.com/blog/model-training-process \n[85] T. with Kolena, “WER, CER, and MER: Measuring textual similarity \nwith substitution, deletion, and insertion errors,” Testing with \nKolena, 2024, [Online]. Available: https://docs.kolena.com \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0105.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0105.png",
+  "ocr_fallback": true
+}

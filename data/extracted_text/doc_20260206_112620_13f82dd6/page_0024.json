@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 24,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n24 \nHandwritten Arabic exhibits significant variation among individuals due \nto factors such as writing style, spacing, and letter arrangement. These \nfactors contribute to increased difficulty in accurately recognizing \nhandwritten Arabic text. \n \nAmbiguities and irregularities in handwritten Arabic script, such as \nligatures, diacritics, and contextual variations. Despite the growing \ninterest in Arabic handwriting recognition, significant gaps and \nchallenges remain. Current recognition systems struggle to achieve \nacceptable accuracy and robustness, especially with unconstrained and \nnoisy handwritten Arabic text. Additionally, the lack of publicly available \nstandardized datasets for handwritten Arabic text hinders the \ndevelopment and evaluation of new algorithms and methodologies [23]. \n \n1.2.3 Problem Statement \n \n \nThe problem addressed in this project is the automation of grading \nhandwritten Arabic exams. Traditional methods of exam grading are \nlabor-intensive, time-consuming, and prone to errors. By leveraging \nadvanced handwriting recognition techniques, we aim to create a \nsystem that can accurately assess and score handwritten responses in \nArabic script, thereby eliminating the need for manual grading by \ninstructors.      \n  \n In this project, we have overcome these obstacles, filled the gaps, and \nwe raised the level of efficiency in recognizing Arabic handwriting and \nbenefiting from its applications in several fields. \n \n1.3 Related Work \n \n \nArabic handwriting recognition (AHR) is a challenging task due to \nthe cursive nature of Arabic script and the wide variability in handwriting \nstyles. In this section, we review previous research efforts and \nmethodologies related to AHR. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0024.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0024.png",
+  "ocr_fallback": true
+}

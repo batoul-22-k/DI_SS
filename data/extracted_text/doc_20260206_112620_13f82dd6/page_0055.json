@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 55,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n55 \n \nFigure 4.9: Dashboard of Tagger \n \n4.2.2 Artificial Neural Networks (ANNs) \n \n \nArtificial Neural Networks (ANNs) are a fascinating and powerful \ntype of machine-learning model inspired by the structure and function \nof the human brain [60]. ANNs mainly consist of 3 main layers which are \nthe Input Layer, Hidden Layers, and Output Layer as shown in Figure \n4.10. Let’s delve deeper into the intricacies of these networks \n \nFigure 4.10: The General Architecture of ANNs \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0055.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0055.png",
+  "ocr_fallback": true
+}

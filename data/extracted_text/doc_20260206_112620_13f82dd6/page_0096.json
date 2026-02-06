@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 96,
+  "text": "CHAPTER 8 \nCONCLUSION AND FUTURE WORK\n \n96 \n8.2.1.2 Existing Examples: \n \n Notability \n GoodNotes \n Evernote (with handwriting recognition add-on) \n Microsoft OneNote \n Noteshelf \n \n8.2.2 Automatic Exam Grading Software \n \nOur future research aims to develop new techniques for recognizing \nmathematical equations within Arabic handwritten text. This includes \ntraining models to accurately parse and interpret mathematical \nsymbols, expressions, and formulas, which are integral components of \nvarious subjects including mathematics, physics, and engineering. If \nsuccessful, we envision integrating these advancements into a \ncomprehensive system that combines Language Models (LLMs) with \nOCR models. This combined system will possess the capability to \nautomatically grade handwritten Arabic exams. By leveraging the \nstrengths of LLMs in understanding context and semantics alongside \nthe precision of OCR in recognizing characters and symbols, we aim to \ncreate a powerful tool for educators to efficiently assess student \nperformance in Arabic written subjects, including those involving \nmathematical components. This system could significantly streamline \nthe grading process, reduce manual effort and human error, and provide \ntimely feedback to both students and instructors. Automatic Exam \nGrading Software is a type of educational technology designed to \nstreamline the process of evaluating student performance in multiple-\nchoice, fill-in-the-blank, and similar standardized tests. \n \n8.2.2.1 Core Features: \n \n Scannable Answer Sheets: The software works by scanning pre-\nformatted answer sheets marked by students. These sheets \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0096.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0096.png",
+  "ocr_fallback": true
+}

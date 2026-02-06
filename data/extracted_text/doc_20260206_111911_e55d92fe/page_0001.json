@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_111911_e55d92fe",
+  "page": 1,
+  "text": "Whisper LoRA Training Docker Usage Guide\n1\nOverview\nThis document describes how to load, start, and use the provided Docker image for Whisper\nLoRA training. The workflow includes dataset preparation, training, and evaluation.\n2\nLoading the Docker Image\nIf you received the prebuilt Docker image file whisper-lora-trainer.tar, load it using the\nfollowing command:\ndocker\nload -i whisper -lora -trainer.tar\nVerify that the image has been successfully loaded:\ndocker\nimages\n3\nStarting the Container\nAfter loading the image, start the container using its ID:\ndocker\nstart -ai 2ebbec699883\nNote: 2ebbec699883 refers to the container ID created from the image.\nOnce started, the container opens an interactive shell and the /workspace directory becomes\navailable.\n4\nTraining Workflow\nAfter entering the container and accessing the workspace, training can begin.\n4.1\nStep 1: Prepare Common Voice Dataset\npython\nprepare_cv_data .py\nThis step prepares the Common Voice dataset by cleaning metadata and organizing audio\nfiles.\n4.2\nStep 2: Data Preprocessing\npython\npreparing_data .py\nThis step performs additional preprocessing required before training.\n1\n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_111911_e55d92fe\\raw\\page_0001.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_111911_e55d92fe\\preprocessed\\page_0001.png",
+  "ocr_fallback": true
+}

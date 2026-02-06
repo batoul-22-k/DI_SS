@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 25,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n25 \n1.3.1 Traditional Approaches \n \n \nEarly AHR systems relied on classical pattern recognition and \nfeature extraction techniques [24][25][26]. These approaches involved \nsegmenting individual characters or words from handwritten text and \nthen extracting handcrafted features. While these methods achieved \nmoderate success, they struggled with handling the inherent variability \nand complexity of Arabic script [25][27][28]. \n \n1.3.2 Deep Learning Advances \n \n \nRecent advancements in deep learning have led to significant \nimprovements in AHR performance [29]. Convolutional Neural Networks \n(CNNs)[30] and Recurrent Neural Networks (RNNs)[31] have shown \npromising results in recognizing Arabic handwritten text without the \nneed for explicit feature engineering. Models such as long short-term \nmemory (LSTM)[31][32] networks and attention mechanisms have been \napplied to capture long-range dependencies and improve recognition \naccuracy, even for cursive Arabic script [33]. \n  \n1.3.3 Challenges and Limitations \n \n \nDespite the progress made in AHR, several challenges remain. \nVariations in handwriting styles, font types, and the lack of large-scale \nannotated datasets pose significant challenges to existing recognition \nsystems [34]. \n  \n1.3.4 Recent Trends and Future Directions \n \n \nEmerging trends in AHR involve integrating deep learning with \ntransfer and multi-task learning to enhance accuracy and generalization. \nReal-time online AHR systems are gaining traction, and creating public \nbenchmarks and datasets is crucial for advancing research. \n  \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0025.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0025.png",
+  "ocr_fallback": true
+}

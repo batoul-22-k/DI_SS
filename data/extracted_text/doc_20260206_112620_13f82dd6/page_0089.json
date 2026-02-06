@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 89,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n89 \n \nFigure 7.7: Example of Cosine Learning Rate Scheduler Effect \n \n \nWe used Nadam as the optimizer with an initial learning rate of \n0.001, a batch size of 128, and trained the model for 70 epochs. The \nNadam optimizer parameters included 𝛃1=0.9, 𝛃2=0.999, and ε=1 x e-08. \nInitially tested on a dataset with a resolution of 32x32, that test resulted \nin a model with a Character Error Rate (CER) of 4.62% corresponding to \n95.38% accuracy. Performance of the model is shown in Figure 7.8.  \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0089.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0089.png",
+  "ocr_fallback": true
+}

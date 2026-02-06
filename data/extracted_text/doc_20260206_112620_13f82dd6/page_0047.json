@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 47,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n47 \n \nFigure 4.1: Segmentation Results of CRAFT \n \n4.2 Recognition System \n \n \nThe recognition system in our Arabic Handwritten OCR project is \ndesigned to accurately transcribe Arabic handwritten text into machine-\nreadable format. Leveraging machine learning models and deep neural \nnetworks, the system analyzes input images of handwritten Arabic text \nto identify and convert characters into digital text. This process involves \ntraining models on labeled datasets to recognize the intricate variations \nand styles inherent in Arabic handwriting, enabling the OCR system to \nachieve high accuracy in text recognition tasks. \n \n4.2.1 Dataset \n \n \nIn our search for a pre-labeled dataset of Arabic handwritten text, \nwe found that no suitable dataset was publicly available. \n \nMost of the publicly available datasets seem to only contain characters \nand their different shapes. We needed to include the largest amount of \nwords possible. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0047.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0047.png",
+  "ocr_fallback": true
+}

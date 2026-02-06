@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 85,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n85 \n \nFigure 7.5: ResNet152 Architecture \n \n7.2.2.4 Training & Results \n \n \nDuring the training phase, we trained our models for 70 epochs, \nexperimenting with different optimizers and hyperparameters to \nidentify the best configuration. We utilized a learning rate scheduler to \ndynamically adjust the learning rate during training. The learning rate \nscheduler monitors the validation loss and, if there is no improvement \nover 10 consecutive epochs, it multiplies the learning rate by the factor \nof 0.2. This approach helps in fine-tuning the model's learning process, \nallowing it to converge more effectively and avoid getting stuck in local \nminima. By carefully managing the learning rate, the scheduler ensures \nthat the model maintains a balance between learning efficiently and not \novershooting the optimal solution, ultimately improving the model's \nperformance and stability. Hyperparameters used for each model are \nshown in Table 1. \n \nParameters \nVGG19 EfficientNetB1 ResNet152\nOptimizer \nADAM \nNADAM \nNADAM \nLearning Rate 0.0001 0.001 \n0.001 \nβ1 \n0.9 \n0.9 \n0.9 \nβ2 \n0.999 \n0.999 \n0.999 \nε \n1×10-8 \n1×10-8 \n1×10-8 \nBatch Size \n128 \n128 \n128 \nTable 1: Hyperparameters Used for each Experimented CNN \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0085.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0085.png",
+  "ocr_fallback": true
+}

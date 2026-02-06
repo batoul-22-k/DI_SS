@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 14,
+  "text": " \nLIST OF ABBREVIATIONS\n \n14 \nLIST OF ABBREVIATIONS \n \nAHAWP\nArabic Handwritten Alphabets, Words and Paragraphs\nAHR \nArabic Handwriting Recognition \nANN \nArtificial Neural Network \nBi-LSTM Bidirectional Long Short-Term Memory \nCER \nCharacter Error Rate \nCNN \nConvolutional Neural Network \nCPU \nCentral Processing Unit \nCRAFT \nCharacter Region Awareness for Text Detection \nCRUD \nCreate, Read, Update, Delete \nCTC \nConnectionist Temporal Classification \nDocTr \nDocument Image Transformer \nDOM \nDocument Object Model \nFC \nFully connected \nGPU \nGraphics Processing Unit \nITC \nInk-to-Text Conversion \nKHATT \nKFUPM Handwritten Arabic TexT \nLLM \nLarge Language Models \nLSTM \nLong Short-Term Memory \nMCR \nMagnetic Character Recognition \nNLP \nNatural Language Processing \nOCR \nOptical Character Recognition \nOMR \nOptical Mark Recognition \nOOP \nObject-Oriented Programming \nPDO \nPHP Data Objects \nPHP \nHypertext Preprocessor \nRAM \nRandom Access Memory \nResNet \nResidual Network \nRNN \nRecurrent Neural Network \nSGD \nStochastic Gradient Descent \nVGG \nVisual Geometry Group \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0014.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0014.png",
+  "ocr_fallback": true
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 18,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n18 \n \n1.1.2 Types Of OCR \n \n \nOptical character recognition (OCR) is usually referred to as an \noff-line character recognition process [11], meaning that the system \nscans and recognizes static images of the characters.  It refers to the \nmechanical or electronic translation of images of Handwritten \ncharacters or printed text into machine code without any variation. \n \nFigure 1.1 [12] shows types of OCR [13]. \n \n \nFigure 1.1: Types of character recognition \n \n1.1.2.1 \nArabic Printed and Handwritten OCR \n \nThe characters are written on paper or directly on a touch screen \nusing a pen or fingers. Printed OCR takes an image containing printed text \nas input and converts it into editable text. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0018.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0018.png",
+  "ocr_fallback": true
+}

@@ -1,12 +1,12 @@
 ﻿"""Embedding generation using sentence-transformers."""
 from __future__ import annotations
 
-from typing import Dict, Iterable, List, Tuple
+from typing import Dict, Iterable, List, Optional, Tuple
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
-_model: SentenceTransformer | None = None
+_model: Optional[SentenceTransformer] = None
 
 
 def get_model(model_name: str = "all-MiniLM-L6-v2") -> SentenceTransformer:

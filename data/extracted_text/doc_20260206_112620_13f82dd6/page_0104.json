@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 104,
+  "text": " \nREFERENCES\n \n104 \n[64] IBM, “What are Recurrent Neural Networks?” 2024. [Online]. \nAvailable: \nhttps://www.ibm.com/cloud/learn/recurrent-neural-\nnetworks \n[65] Wikipedia, “Recurrent Neural Network.” 2024. [Online]. Available: \nhttps://en.wikipedia.org/wiki/Recurrent_neural_network \n[66] AWS, “What is RNN? - Recurrent Neural Networks Explained.” 2024. \n[Online]. \nAvailable: \nhttps://aws.amazon.com/machine-\nlearning/what-is-rnn/ \n[67] DataCamp, “Recurrent Neural Network Tutorial (RNN).” 2024. \n[Online]. \nAvailable: \nhttps://www.datacamp.com/tutorial/recurrent-neural-networks-\ntutorial \n[68] T. O’Shea, S. Hitefield, and J. Corgan, “End-to-End Radio Traffic \nSequence Recognition with Deep Recurrent Neural Networks,” \nMar. 2016. \n[69] R. Najam and S. Faizullah, “Analysis of Recent Deep Learning \nTechniques for Arabic Handwritten-Text OCR and Post-OCR \nCorrection,” Applied Sciences, vol. 13, no. 13, p. 7568, 2023, doi: \n10.3390/app13137568. \n[70] W. Albattah and S. Albahli, “Intelligent Arabic Handwriting \nRecognition Using Different Standalone and Hybrid CNN \nArchitectures,” Applied Sciences, vol. 12, no. 19, 2022, doi: \n10.3390/app121910155. \n[71] T. Mullaney, “Building My Own Google Hangouts ‘Autocomplete’ \nwith \nChar-RNN.” \n2016. \n[Online]. \nAvailable: \nhttp://tommymullaney.com/projects/char-rnn-gchat \n[72] P. \nW. \nCode, \n“CTC \nLoss \nExplained.” \n[Online]. \nAvailable: \nhttps://paperswithcode.com/method/ctc-loss \n[73] A. Graves, S. Fernández, F. Gomez, and J. Schmidhuber, \n“Connectionist temporal classification: Labelling unsegmented \nsequence data with recurrent neural networks,” Proceedings of the \nInternational Conference on Machine Learning (ICML), pp. 369–\n376, \n2006, \n[Online]. \nAvailable: \nhttps://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.75.630\n6 \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0104.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0104.png",
+  "ocr_fallback": true
+}

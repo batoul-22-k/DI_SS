@@ -7,6 +7,8 @@ from typing import Dict, List
 
 from config.config import SETTINGS, PROJECT_ROOT
 from app.embeddings.indexer import update_vector_store
+from app.api.search import clear_store as clear_search_store
+from app.api.qa import clear_store as clear_qa_store
 from app.ocr.ocr_pipeline import run_ocr_pipeline
 from app.utils.ids import make_doc_id
 from app.utils.io import write_json
@@ -31,6 +33,8 @@ def ingest_pdf_bytes(pdf_bytes: bytes, filename: str) -> Dict[str, object]:
 
     ocr_outputs = run_ocr_pipeline(pdf_path, doc_id)
     index_stats = update_vector_store(ocr_outputs)
+    clear_search_store()
+    clear_qa_store()
 
     metadata = _build_metadata(
         doc_id=doc_id,

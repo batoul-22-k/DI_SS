@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import re
-from typing import List
+from typing import List, Optional
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
@@ -16,7 +16,7 @@ router = APIRouter()
 
 class QARequest(BaseModel):
     question: str = Field(..., min_length=1)
-    top_k: int | None = None
+    top_k: Optional[int] = None
 
 
 class QAContext(BaseModel):
@@ -25,7 +25,7 @@ class QAContext(BaseModel):
     chunk_index: int
     text: str
     score: float
-    source: str | None = None
+    source: Optional[str] = None
 
 
 class QAResponse(BaseModel):
@@ -34,7 +34,7 @@ class QAResponse(BaseModel):
     contexts: List[QAContext]
 
 
-_store: FaissVectorStore | None = None
+_store: Optional[FaissVectorStore] = None
 
 
 def _get_store() -> FaissVectorStore:
@@ -50,6 +50,12 @@ def _get_store() -> FaissVectorStore:
             ) from exc
         _store = store
     return _store
+
+
+def clear_store() -> None:
+    """Clear cached FAISS store so new data is loaded on next request."""
+    global _store
+    _store = None
 
 
 def _tokenize(text: str) -> List[str]:
@@ -85,6 +91,38 @@ def _best_sentence(text: str, question: str) -> str:
     return best_sentence[: SETTINGS.qa_max_chars].strip()
 
 
+def _compose_answer(results: List[Dict[str, object]], question: str) -> str:
+    """Compose an answer by selecting the best sentence from each top chunk."""
+    sentences: List[str] = []
+    for item in results:
+        text = str(item.get("text", ""))
+        sentence = _best_sentence(text, question)
+        if sentence and sentence not in sentences:
+            sentences.append(sentence)
+
+    if not sentences:
+        return ""
+
+    max_chars = SETTINGS.qa_max_chars
+    answer_parts: List[str] = []
+    total = 0
+    for sent in sentences:
+        sent = sent.strip()
+        if not sent:
+            continue
+        # Add a separator if we already have content.
+        extra = 2 if answer_parts else 0
+        if total + len(sent) + extra > max_chars:
+            break
+        if answer_parts:
+            answer_parts.append("  ")
+            total += 2
+        answer_parts.append(sent)
+        total += len(sent)
+
+    return "".join(answer_parts).strip()
+
+
 @router.post("/qa", response_model=QAResponse)
 def qa(request: QARequest) -> QAResponse:
     """Answer a question using retrieved chunks only."""
@@ -108,7 +146,7 @@ def qa(request: QARequest) -> QAResponse:
             contexts=[],
         )
 
-    answer = _best_sentence(str(results[0].get("text", "")), request.question)
+    answer = _compose_answer(results, request.question)
     if not answer:
         answer = "Answer not found in the provided documents."
 

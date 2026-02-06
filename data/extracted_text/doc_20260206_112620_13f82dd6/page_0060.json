@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 60,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n60 \nwith larger batch sizes and more complex models, which improved the \nrecognition accuracy of our system. The RTX 3060's compatibility with \nTensorFlow and other machine learning frameworks ensured a smooth \nintegration into our development pipeline, allowing us to leverage its full \npotential for our project. \n \nIn summary, the integration of the CRAFT model significantly enhances \nthe preprocessing for Arabic handwritten OCR. By accurately detecting \ntext regions and handling image angles, CRAFT ensures proper text \nalignment. The histogram segmentation technique further refines the \ninput by precisely cutting the smallest unit of text possible. This \npreprocessing pipeline produces clean, well-segmented text images, \nperfectly primed for the recognition system. Overall, these steps ensure \nhigher accuracy and reliability in the OCR output\n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0060.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0060.png",
+  "ocr_fallback": true
+}

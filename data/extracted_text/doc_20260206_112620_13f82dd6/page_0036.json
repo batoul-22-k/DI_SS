@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 36,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n36 \n \n \nFigure 3.1: Document Unwarping Using Hough Line Transform \n \n \nHowever, this naive approach has several limitations. First, it \nrequires the entire paper to be visible within the image. If any part of the \npaper is cut off or obscured, the line detection fails, resulting in an error. \nSecond, the background must be clearly distinguishable from the paper. \nIf the paper's background is cluttered or similar in color and texture, the \nedge detection can be unreliable, leading to poor alignment and \ncropping. Additionally, this method assumes the paper is perfectly flat, \nwhich is rarely the case in real-world scenarios where paper might be \ncrumpled or curved. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0036.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0036.png",
+  "ocr_fallback": true
+}

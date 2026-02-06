@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 32,
+  "text": "CHAPTER 2 \nSYSTEM PLANNING\n \n32 \n2.2.1.2 Cropping of the image \n \n Incomplete Text Capture: Improper cropping can lead to parts of \nthe text being cut off or obscured. OCR systems rely on a clear \nview of the entire text to accurately recognize and extract \ncharacters. \n \n Background Noise: Unimportant details or backgrounds in the \nimage can interfere with OCR algorithms, causing them to \nmisinterpret text or ignore it altogether. \n \n2.2.1.3 Unwarping of the Image \n \n \nImage Distortion Correction: Images taken from an angle may \nneed correction to straighten lines of text as shown in Figure 2.1 [44], \nwhich is crucial for accurate OCR. Distorted text lines can confuse OCR \nalgorithms, leading to errors in text extraction. \n \nQuality of Image Processing: The process of unwarping an image \ninvolves computational techniques to correct perspective and \ndistortion, which can vary in effectiveness depending on the software \nused and the complexity of the image. \n \n \nFigure 2.1: Example of Document Warping \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0032.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0032.png",
+  "ocr_fallback": true
+}

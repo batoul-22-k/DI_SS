@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 77,
+  "text": "CHAPTER 6 \nAPPLICATION\n \n77 \nDespite its advanced features, we found that FastAPI was more complex \nthan necessary for our application, which primarily involved sending \nimages and receiving labels. The additional features and complexity of \nFastAPI did not provide a significant advantage for our relatively \nstraightforward requirements [93]. \n \n6.2.2.4 Flask \n \n \nFlask is a lightweight WSGI web application framework in Python. \nIt is designed to make getting started quick and easy, with the ability to \nscale up to complex applications. Flask is simple and flexible, providing \nthe essentials without requiring extensive boilerplate code. \n \nWe found Flask to be easy to work with, allowing us to define routes and \nhandle requests with minimal effort. Its simplicity made it ideal for our \nneeds, as we only needed to send images to the backend and receive \nrecognized labels in return. \n \nAfter experimenting with different frameworks, we decided to use Flask \nand implemented the entire backend system with it. Flask provided the \nright balance of simplicity and functionality, making it the optimal choice \nfor our application. \n \n6.2.2.5 Hardware Configuration \n \n \nThe backend was implemented in a local environment (self-\nhosted) rather than on the cloud. This decision was based on our need \nto have full control over the hardware and software environment, \nensuring optimal performance and ease of maintenance. \nThe hardware configuration used in the backend includes: \n \n● Intel Core i3-12100F Processor: A budget-friendly central \nprocessing unit (CPU) capable of handling the necessary \ncomputations for our OCR system. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0077.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0077.png",
+  "ocr_fallback": true
+}

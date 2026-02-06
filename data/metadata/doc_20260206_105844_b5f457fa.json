@@ -1,0 +1,38 @@
+{
+  "doc_id": "doc_20260206_105844_b5f457fa",
+  "original_filename": "covid-19-2-a.pdf",
+  "saved_pdf_path": "data\\raw_pdfs\\doc_20260206_105844_b5f457fa.pdf",
+  "created_at": "2026-02-06T08:58:50.472954Z",
+  "page_count": 21,
+  "ocr_output_paths": [
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0001.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0002.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0003.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0004.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0005.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0006.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0007.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0008.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0009.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0010.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0011.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0012.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0013.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0014.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0015.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0016.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0017.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0018.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0019.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0020.json",
+    "data\\extracted_text\\doc_20260206_105844_b5f457fa\\page_0021.json"
+  ],
+  "ocr_engine": "paddleocr",
+  "pdf_render_dpi": 200,
+  "preprocess_deskew": true,
+  "block_y_gap": 22,
+  "index": {
+    "chunks_added": 63,
+    "total_chunks": 66
+  }
+}

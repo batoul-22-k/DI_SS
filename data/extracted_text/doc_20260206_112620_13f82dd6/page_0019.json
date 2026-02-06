@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 19,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n19 \nRecognizing Arabic handwritten text is more challenging than \nrecognizing printed text [14]. People have diverse ways of writing, which \nmakes it difficult even for a human to recognize it. \n \nFigure 1.2 [15] shows a sample of Arabic scripts. The handwritten script \nis usually written in cursive, even in Latin scripts. Segmenting cursive \nscripts is more complicated than segmenting printed scripts. \n \nThe handwritten script has many sizes, orientations, and resolutions \ncompared with printed text, and there are no standard font sizes and \norientations. \n \n \nFigure 1.2: Sample handwritten and machine-printed Arabic texts. \n \n1.1.2.2 Online Character Recognition System \n \n \nOnline character recognition is recognizing handwriting recorded \nwith a digitizer as a time sequence of pen coordinates. The handwriting \nis captured and stored in digital form via different means in real time.  \nUsually, a special pen is used in conjunction with an electronic surface.  \nAs the pen moves across the surface, the two-dimensional coordinates \nof successive points are represented as a function of time and are \nstored in order. It is accepted that the online method of recognizing \nhandwritten text has achieved better results than its offline counterpart.  \nThis may be attributed to the fact that more information may be \ncaptured in the online case such as the direction, speed, and the order \nof strokes of the handwriting. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0019.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0019.png",
+  "ocr_fallback": true
+}

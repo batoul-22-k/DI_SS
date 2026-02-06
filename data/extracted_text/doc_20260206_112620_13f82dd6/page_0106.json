@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 106,
+  "text": " \nREFERENCES\n \n106 \n[86] M. Xiong et al., A Rate of Penetration (ROP) Prediction Method \nBased on Improved Dung Beetle Optimization Algorithm and \nBiLSTM-SA. 2024. doi: 10.21203/rs.3.rs-4255057/v1. \n[87] C. Pavlatos, E. Makris, G. Fotis, V. Vita, and V. Mladenov, “Enhancing \nElectrical Load Prediction Using a Bidirectional LSTM Neural \nNetwork,” Electronics (Basel), vol. 12, p. 4652, Jul. 2023, doi: \n10.3390/electronics12224652. \n[88] J. H. Noor, “The Effects of Architectural Design Decisions on \nFramework Adoption: A Comparative Evaluation of Meta-\nFrameworks in Modern Web Development,” Aalto University, \nEspoo, 2024. \n[89] Meta, “React | Meta Open Source.” 2024. \n[90] Kinsta, “What Is React.js? A Look at the Popular JavaScript Library.” \n2023. \n[91] D. E. V Community, “ReactJS: A Comprehensive Overview of a \nPopular JavaScript Library.” 2023. \n[92] T. Rascia, “React Tutorial: An Overview and Walkthrough.” 2023. \n[93] “Comparison of FastAPI with Django and Flask,” GeeksforGeeks, \nNov. \n04, \n2023. \n[Online]. \nAvailable: \nhttps://www.geeksforgeeks.org/comparison-of-fastapi-with-\ndjango-and-flask/ \n[94] M. Tan and Q. V Le, “EfficientNet: Rethinking Model Scaling for \nConvolutional Neural Networks,” in Proceedings of the 36th \nInternational Conference on Machine Learning, 2019. \n[95] K. Simonyan and A. Zisserman, “Very Deep Convolutional Networks \nfor Large-Scale Image Recognition,” arXiv preprint arXiv:1409.1556, \n2014. \n[96] K. He, X. Zhang, S. Ren, and J. Sun, “Deep Residual Learning for \nImage Recognition,” in Proceedings of the IEEE Conference on \nComputer Vision and Pattern Recognition, 2016, pp. 770–778. \n[97] V. Adithya et al., “EffUnet-SpaGen: An Efficient and Spatial \nGenerative Approach to Glaucoma Detection,” J Imaging, vol. 7, p. \n92, May 2021, doi: 10.3390/jimaging7060092. \n[98] T.-H. Nguyen, T.-N. Nguyen, and B.-V. Ngo, “A VGG-19 Model with \nTransfer Learning and Image Segmentation for Classification of \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0106.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0106.png",
+  "ocr_fallback": true
+}

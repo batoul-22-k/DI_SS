@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 38,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n38 \n \nFigure 3.2: Examples from DocTr \n \n \nBy employing DocTr, we overcome the challenges posed by the \nnaive approach and achieve a more robust preprocessing pipeline. This \nmethod does not require the entire paper to be visible or the \nbackground to be clearly different from the paper, making it suitable for \na wide range of real-world scenarios. Additionally, the use of a \ntransformer model allows for precise and efficient corrections, ensuring \nthat our OCR system receives the best possible input for accurate text \nrecognition. \n \n3.2 Paragraph Segmentation \n \n \nEffective OCR begins with a structured approach to text \nextraction and analysis. First, the text is split into paragraphs using line \nbreaks and indentation. Each paragraph is then divided into lines, and \neach line into words, separated by spaces or punctuation. Finally, a \ndetailed analysis at the sub-word level examines characters and \nfeatures. This systematic breakdown allows OCR algorithms to \naccurately extract and interpret the document's content, supporting \nvarious applications. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0038.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0038.png",
+  "ocr_fallback": true
+}

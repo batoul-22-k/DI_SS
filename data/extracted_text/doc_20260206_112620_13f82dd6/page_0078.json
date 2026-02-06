@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 78,
+  "text": "CHAPTER 6 \nAPPLICATION\n \n78 \n● 16 Gigabytes of Random Access Memory (RAM): Sufficient \nmemory to manage the image processing and model inference \ntasks. \n● NVIDIA GeForce RTX 3060 Graphics Processing Unit (GPU): A \npowerful GPU that significantly accelerates the processing of \nimages and model computations, making the system efficient and \nresponsive. \n \nBy using this hardware configuration, we ensured that our backend \ncould handle the demands of the OCR processing effectively, providing \nquick and accurate results.\n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0078.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0078.png",
+  "ocr_fallback": true
+}

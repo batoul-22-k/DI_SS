@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 73,
+  "text": "CHAPTER 6 \nAPPLICATION\n \n73 \nIt encompasses a wide range of technologies and frameworks that work \ntogether to deliver content and functionality on the internet. Web \ntechnologies which we used are HTML, CSS, JAVASCRIPT, web browsers \nand frameworks like REACT [88].  \n \n6.2.1.2.1 HTML / CSS / JS \n \n \nHTML, CSS, and JavaScript are the three foundational \ntechnologies used to create and design websites.   \nHTML (Hyper Text Markup Language): The standard language for \ncreating web pages and structuring content on the internet. HTML \ndefines the structure and layout of a webpage using tags. \n \nCSS (Cascading Style Sheets) is used to enhance the presentation and \nlayout of HTML elements. It allows developers to control the design \naspects of a webpage, such as colors, fonts, spacing, and positioning. \nCSS is important for creating visually appealing and responsive \nwebsites.  \n \nJavaScript is a programming language that enables interactive and \ndynamic functionality on a webpage. It can be used to create \nanimations, form validation, interactive maps, and other user \ninteractions. JavaScript is essential for making websites more engaging \nand user-friendly.  \n \n6.2.1.2.2 React \n \nReact (also known as React.js or ReactJS) is a popular JavaScript \nlibrary for building user interfaces. Developed by Meta (formerly \nFacebook) [89], React allows developers to create dynamic, interactive, \nand fast web applications [90].  \n \nOne of the key features of React is its component-based architecture. \nComponents are reusable building blocks that represent a part of the \nuser interface. Each component encapsulates its own logic and state, \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0073.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0073.png",
+  "ocr_fallback": true
+}

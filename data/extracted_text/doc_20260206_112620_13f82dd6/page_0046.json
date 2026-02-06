@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 46,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n46 \nCHAPTER 4 SYSTEM DEVELOPMENT \n \n \nWith the system design completed, the next crucial step is the \nimplementation phase. This stage involves integrating various \ntechnologies and algorithms tailored to handle the complexities of \nArabic script. It requires meticulous attention to detail, from configuring \nimage processing libraries like OpenCV for segmentation to fine-tuning \ndeep learning models for accurate character recognition. Collaborative \nefforts between experts are essential to refine the system iteratively \nand ensure optimal performance across diverse handwritten texts and \ninput conditions. Rigorous testing and validation will pave the way for a \nrobust OCR solution tailored to Arabic handwritten documents. \n \n4.1 Segmentation System \n \n \nWe utilized OpenCV for the initial segmentation system of our \nArabic Handwritten OCR project. The system was meticulously \nprogrammed to segment text lines and words within an image using the \naforementioned image processing techniques. \n \nAnd then, to manage the complex requirements of text detection, we \nimplemented CRAFT (Character Region Awareness for Text detection) \nvia the KerasOCR library [55][56], which includes a TensorFlow-\ncompatible implementation of CRAFT able to segment words or sub-\nwords efficiently as shown in Figure 4.1. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0046.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0046.png",
+  "ocr_fallback": true
+}

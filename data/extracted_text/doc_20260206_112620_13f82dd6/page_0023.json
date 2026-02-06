@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 23,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n23 \n1.2.1 Importance of OCR for Arabic language \n \n \nThe Arabic language is considered one of the most important \nlanguages, because: \n \n Arabic is the fifth most spoken language in the world [21]. \n Arabic is the Language of the Qur’an, the Holy Book of Islam. \n Rich Cultural History of Arabic in the World. \n Arabic is one of the oldest in the world with a wealth of knowledge \nthat   Archeologists to this day are still trying to uncover. \n Arabs have also made significant contributions in:                     \nLiterature, Mathematics, Navigation, and Architecture.  \n \n1.2.2 Arabic Handwriting Recognition Challenges \n  \n \nArabic handwriting recognition presents unique challenges shown \nin Figure 1.3 [22] compared to other scripts, including: \nArabic is a connected language, where letters are linked together, and \nthe same letter can have different forms depending on its position \nwithin a word. \n \n \nFigure 1.3: The Variations in Words & Characters in Arabic \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0023.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0023.png",
+  "ocr_fallback": true
+}

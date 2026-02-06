@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_111911_e55d92fe",
+  "page": 2,
+  "text": "4.3\nStep 3: Model Training\npython\ntrain.py\nThe training outputs, including checkpoints and logs, are saved in the outputs directory.\n5\nEvaluation\nAfter training is completed, the model can be evaluated using:\npython\neval.py\nThis script evaluates the trained model on the prepared evaluation dataset.\n6\nProject Directory Structure\nFigure 1: Project directory structure of the Whisper LoRA training container\n7\nSummary\nThe complete workflow is as follows:\n1. Load the Docker image\n2. Start the container\n3. Prepare the dataset\n4. Preprocess the data\n2\n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_111911_e55d92fe\\raw\\page_0002.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_111911_e55d92fe\\preprocessed\\page_0002.png",
+  "ocr_fallback": true
+}

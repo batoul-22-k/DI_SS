@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 87,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n87 \n \nFigure 7.6: ResNet152 Performance Throughout the Epochs \n \n7.3 Optimized Final Model \n \n \nMoving from experimental prototype models to developing the \nfinal model involved a systematic approach to refine and optimize our \ninitial findings. Initially, we explored various CNN architectures such as \nVGG19, EfficientNetB1, and ResNet152 using smaller datasets to gauge \ntheir performance and suitability. Upon identifying ResNet152 as the \nmost promising due to its superior validation loss, character error rate, \nand accuracy metrics, we transitioned to a more rigorous development \nphase.  \n \n7.3.1 Larger Dataset \n \n \nWe curated an extensive dataset incorporating various sources, \nincluding a substantial portion of the KHATT Dataset originally \ncomprising approximately 20,000 samples, which after meticulous \ncleaning and augmentation processes, expanded to 50,145 samples. \nAdditionally, we integrated data from the AHAWP and Arabic \nHandwritten Characters datasets, also yielding a combined total of \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0087.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0087.png",
+  "ocr_fallback": true
+}

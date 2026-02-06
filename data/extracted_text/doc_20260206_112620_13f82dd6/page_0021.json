@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 21,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n21 \n1.1.2.3 Offline Character Recognition System \n \n \nOffline handwriting recognition refers to the process of \nrecognizing words that have been scanned from a surface (such as a \nsheet of paper) and are stored digitally in grayscale format [19]. After \nbeing stored, it is conventional to perform further processing to allow \nsuperior recognition. offline character recognition can be further \ngrouped into two types: \n Magnetic Character Recognition (MCR) \n Optical Character Recognition (OCR) \n \n In MCR, the characters are printed with magnetic ink. The reading \ndevice can recognize the characters according to the unique magnetic \nfield of each character. MCR is mostly used in banks for check \nauthentication. OCR deals with the recognition of characters acquired \nby optical means, typically a scanner or a camera. The characters are in \nthe form of pixelated images, and can be either printed or handwritten, \nof any size, shape, or orientation. The OCR can be subdivided into \nhandwritten character recognition and printed character recognition. \nHandwritten Character Recognition is more difficult to implement than \nprinted character recognition due to diverse human handwriting styles \nand customs. In printed character recognition, the images to be \nprocessed are in the forms of standard fonts like Times New Roman. \n \n1.1.3 Arabic handwriting Recognition Overview \n \n \nArabic handwriting recognition focuses specifically on the \nconversion of handwritten Arabic text into machine-readable text. It \ninvolves the analysis of handwritten Arabic characters to accurately \nrecognize and interpret the handwritten content [20]. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0021.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0021.png",
+  "ocr_fallback": true
+}

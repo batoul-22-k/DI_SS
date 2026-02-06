@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 69,
+  "text": "CHAPTER 5 \nAI SYSTEM\n \n69 \nFigure 5.6 shows the initial design of the recognition system \n \n \nFigure 5.6: Diagram of the recognition system \n \nWith this, the final system becomes as Figure 5.7. \n \n \nFigure 5.7: Diagram of entire system \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0069.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0069.png",
+  "ocr_fallback": true
+}

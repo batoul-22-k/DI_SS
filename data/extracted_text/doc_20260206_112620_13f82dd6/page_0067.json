@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 67,
+  "text": "CHAPTER 5 \nAI SYSTEM\n \n67 \nto address the vanishing gradient problem and effectively capture long-\nterm dependencies in sequential data. \n \nFigure 5.4: Diagram of A Single LSTM Unit \n \n \nLSTMs utilize a memory cell and gate mechanisms to regulate the \nflow of information through the network over time. LSTMs include \nInput (Xt): The input at time step t, Memory Cell (Ct): Maintains \ninformation over long sequences, preventing the vanishing gradient \nproblem in traditional RNNs, Hidden State (ht): Carries information from \nthe current time step to the next. It is used along with the next input to \ncompute the gates and cell state in the following time step, Forget \nGate (ƒt): Controls what information should be discarded from the cell \nstate, Input Gate (it): Modulates the input information to update the cell \nstate, and Output Gate(ot): Produces the output based on the current \ncell state, ensuring relevant information is passed to the next layer or \noutput. \nBiLSTMs are a type of recurrent neural network (RNN) designed to \ncapture dependencies in sequences by processing information in both \nforward and backward directions simultaneously as shown in Figure 5.5 \n[87]. Unlike traditional LSTMs that only consider past context, BiLSTMs \nincorporate future context as well, enhancing their understanding of \nsequence data. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0067.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0067.png",
+  "ocr_fallback": true
+}

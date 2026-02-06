@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 49,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n49 \nWe quickly drafted a prototype UI (see Figure 4.3) that resembles a \nspreadsheet, featuring images on the left and a text input field on the \nright. \n \n \nFigure 4.3: A draft of labeling app UI \n \n4.2.1.2 Implementing The Labeling App: \n \n \nThe goal of this application is to help us in the process of data \nlabeling which is used for training the model. The idea of this application \nis to display a set of images from the KHATT dataset, then we add the \nappropriate label for each image, and by pressing enter that label is \nsaved in our database. \n  \nWe used HTML, CSS and JavaScript for the frontend implementation \nand PHP for backend implementation for our web application. \n \n4.2.1.2.1 PHP \n \n \nPHP (Hypertext Preprocessor) is a widely used, open-source, \nserver-side \nscripting \nlanguage \nspecifically \ndesigned \nfor \nweb \ndevelopment. PHP code is executed on the server, generating HTML that \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0049.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0049.png",
+  "ocr_fallback": true
+}

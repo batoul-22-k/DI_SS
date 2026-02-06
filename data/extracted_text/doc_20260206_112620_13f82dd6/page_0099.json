@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 99,
+  "text": " \nREFERENCES\n \n99 \n[11] Medium, “Evaluating Offline Handwritten Text Recognition: Which \nMachine Learning Model is the Winner?,” Medium, vol. 8, no. 2, pp. \n63–78, 2024. \n[12] L. Hamami and D. Berkani, “Recognition system for printed multi-\nfont and multi-size Arabic characters,” Arab J Sci Eng, vol. 27, Apr. \n2002. \n[13] Conexiom, “The Advantages, Challenges, and Alternatives to OCR \nSolutions,” Conexiom, vol. 12, no. 4, pp. 45–57, 2024. \n[14] Z. Shi, S. Setlur, and V. Govindaraju, “Pre-processing Issues in \nArabic OCR,” in Guide to OCR for Arabic Scripts, London: Springer \nLondon, 2012, pp. 79–102. doi: 10.1007/978-1-4471-4072-6_4. \n[15] I. Ahmad and G. Fink, “Handwritten Arabic text recognition using \nmulti-stage sub-core-shape HMMs,” International Journal on \nDocument Analysis and Recognition (IJDAR), vol. 22, Sep. 2019, doi: \n10.1007/s10032-019-00339-8. \n[16] V. Kulesh, K. Schaffer, I. Sethi, and M. Schwartz, “Handwriting \nquality evaluation,” in International Conference on Advances in \nPattern Recognition, Berlin, Heidelberg, Mar. 2001, pp. 157–165. \n[17] M. Liwicki, A. Graves, H. Bunke, and J. Schmidhuber, “A novel \napproach to on-line handwriting recognition based on bidirectional \nlong short-term memory networks,” 2007. [Online]. Available: \nhttps://api.semanticscholar.org/CorpusID:5668166 \n[18] H. Akouaydi, Y. Hamdi, H. Boubaker, M. Zaied, F. Alaya Cheikh, and \nA. Alimi, Children’s Online Handwriting Quality Analysis. 2021. doi: \n10.36227/techrxiv.14776338.v1. \n[19] M. Suganthi and R. Arun Prakash, “An offline English optical \ncharacter recognition and NER using LSTM and adaptive neuro-\nfuzzy inference system,” Journal of Intelligent & Fuzzy Systems, vol. \n44, pp. 3877–3890, 2023, doi: 10.3233/JIFS-221486. \n[20] P. Ahmed and Y. Al-Ohali, “Arabic Character Recognition: Progress \nand Challenges,” Journal of King Saud University - Computer and \nInformation \nSciences, \nvol. \n12, \npp. \n85–116, \n2000, \ndoi: \nhttps://doi.org/10.1016/S1319-1578(00)80004-X. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0099.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0099.png",
+  "ocr_fallback": true
+}

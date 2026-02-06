@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 91,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n91 \nlow CER, high accuracy model that’s well trained to recognize Arabic \nAlphabetical Letters. This success prompted us to further enhance the \nmodel's capabilities by transferring its learned weights to the main \nKHATT Dataset, which comprises 50,145 samples. By fine-tuning the \nmodel on this larger and more diverse dataset, we aim to capitalize on \nthe features and patterns learned from the Arabic Alphabet dataset, \nthereby improving the model's accuracy and robustness for recognizing \nhandwritten Arabic text in the KHATT Dataset. This application of \ntransfer learning allows us to efficiently adapt the model to new data \nwhile leveraging existing knowledge to achieve superior performance in \na related domain. \n \n \nFigure 7.9: Demonstrating Transfer Learning Technique \n \n7.3.4 Final Results \n \n \nIn our final approach, we loaded the ResNet50V2 model pre-\ntrained on the Arabic Alphabet Character dataset and continued training \non the main KHATT Dataset using advanced techniques and optimal \nhyperparameters. The model was trained with a cosine learning rate \nscheduler, Adam optimizer with an initial learning rate of 0.001, 𝛃1 of 0.9, \n𝛃2 of 0.999, and ε set to 1 x e-7, across 70 epochs.  \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0091.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0091.png",
+  "ocr_fallback": true
+}

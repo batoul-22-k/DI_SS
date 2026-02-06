@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 48,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n48 \nConsequently, we had to create our own dataset derived from the \npublicly available KHATT dataset [57][58]. \n \nThe KHATT dataset consists of several paragraphs like the one \ndemonstrated in Figure 4.2, the whole paragraph is labeled but due to \nour segmentation system, each paragraph gets segmented in a \ndifferent way, so we had to label the new data manually. \n \n \nFigure 4.2: A Sample of a Full Paragraph from KHATT Dataset \n \n4.2.1.1 Figuring Out an Approach to Data Labeling \n \nWe were faced with the challenge of labeling about 200,000 samples, \nwhich was a daunting task to complete manually within a month. As a \nresult, we needed to find an application that would enable us to \ncollaborate on the data labeling process from any location. \n \nAfter exploring several options, we found that the available applications \nwere either too complex, designed for broader data labeling purposes \nsuch as image recognition and segmentation, or were commercially \noriented with expensive licenses and long-term commitments. \nConsequently, we made the decision to create our own labeling \napplication that would support collaboration, streamline data entry, and \nfacilitate quick data review. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0048.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0048.png",
+  "ocr_fallback": true
+}

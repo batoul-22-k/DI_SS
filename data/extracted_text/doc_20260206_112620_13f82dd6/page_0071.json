@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 71,
+  "text": "CHAPTER 6 \nAPPLICATION\n \n71 \n \nCHAPTER 6 APPLICATION \n6.1 Overview \n \nIn the development of our application for Arabic Handwritten OCR, we \nadopted a robust architecture to ensure efficiency and scalability. The \ncore of our system is built on a front-end and back-end model, which \nallows us to separate concerns between the user interface and the \ncomputational heavy lifting. This separation is crucial for handling the \nintensive tasks involved in OCR, such as image processing and text \nrecognition, which require significant computational resources. By \noffloading these tasks to a powerful server, we ensure that the \napplication remains responsive and performs optimally even on devices \nwith limited processing power. This chapter delves into the specifics of \nour application’s architecture, the technologies used, and the rationale \nbehind our design choices. \n \n6.2 Frontend and Backend Model \n \nIn software engineering, the terms frontend and backend \n(sometimes written as back end or back-end) refer to the separation of \nconcerns between the presentation layer (frontend), and the data \naccess layer (backend) of a piece of software, or the physical \ninfrastructure or hardware. In the client–server model, the client is \nusually considered the frontend and the server is usually considered the \nbackend, even when some presentation work is done on the server \nitself. \n \nWe employed a front-end and back-end model in developing the \napplication to offload the heavy computational tasks from the user's \ndevice to a powerful server. This approach ensures that the application \nremains responsive and efficient, even on devices with limited \nprocessing power. By handling intensive tasks like image processing and \ntext recognition on the server, we can leverage more robust hardware \nand advanced algorithms, resulting in faster and more accurate OCR \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0071.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0071.png",
+  "ocr_fallback": true
+}

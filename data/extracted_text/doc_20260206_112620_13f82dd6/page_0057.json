@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 57,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n57 \n \n4.2.2.3 Usage of CNN and RNN in OCR \n \n \nConvolutional Neural Networks (CNNs) and Recurrent Neural \nNetworks (RNNs) are two fundamental architectures in deep learning, \ndesigned to tackle different types of data and tasks [69][70]. \n \n4.2.2.3.1  CNNs for OCR \n \n \nDue to their powerful feature extraction capabilities, CNNs are \nhighly effective at recognizing individual characters within handwritten \ntext. They can discern the varied shapes and strokes that constitute \nhandwritten characters, making them suitable for segmenting and \nrecognizing characters in isolation. \n \n4.2.2.3.2 RNNs for OCR \n \n \nRNNs, with their ability to process sequences, excel in \nunderstanding the flow and context of handwriting. This is particularly \nbeneficial for cursive writing or scripts where characters are connected, \nand the context is necessary for accurate recognition. RNNs, especially \nvariants like LSTMs or GRUs, can better handle the temporal \ndependencies inherent in handwritten text as shown in Figure 4.12 [71]. \n \nFigure 4.12: An Example of how RNNs Handle Text Sequences \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0057.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0057.png",
+  "ocr_fallback": true
+}

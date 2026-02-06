@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 90,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n90 \n \nFigure 7.8: ResNet50V2 Performance on The Larger Dataset \n \n \nRecognizing the need for further improvement, we employed \ntransfer learning techniques to refine the model's performance, \nleveraging ResNet50V2's capabilities and our refined training approach \nto achieve robust performance and scalability necessary for our specific \napplication. \n \n7.3.3 ResNet50V2 Arabic Alphabet Transfer Learning \n \n \nTransfer learning is a technique in machine learning where a model \ntrained on one task is leveraged as a starting point for a new task as \nshown in Figure 7.9 [101]. This approach utilizes knowledge gained from \nsolving one problem and applies it to a different but related problem, \ntypically resulting in improved learning efficiency and performance. In \nour case, after initially training ResNet50V2 on an Arabic Alphabet \nCharacter dataset consisting of 58,474 samples, we easily achieved a \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0090.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0090.png",
+  "ocr_fallback": true
+}

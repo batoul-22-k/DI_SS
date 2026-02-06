@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 58,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n58 \n4.2.2.4 CTC Loss Layer \n \n \nCTC is an algorithm employed for training deep neural networks in \ntasks like speech recognition and handwriting recognition [72]. CTC \nfacilitates end-to-end training of neural networks for sequence-to-\nsequence tasks without the need for explicit alignment annotations. It \ndemonstrates resilience to labeling errors or inconsistencies within the \ntraining data by implicitly learning sequence alignments [73]. The \nalgorithm is applicable across a diverse array of use cases. \n \nIt Calculates loss between a continuous (unsegmented) time series and \na target sequence. It does this by summing over the probability of \npossible alignments of input to target, producing a loss value which is \ndifferentiable with respect to each input node. The alignment of input to \ntarget is assumed to be “many-to-one”, which limits the length of the \ntarget sequence such that it must be the input length [74]. \n \n4.2.2.5 Requirements For Implementing the System \n \n \nImplementing the recognition system required meticulous \nplanning and execution, focusing on the hardware and software \ncomponents necessary for efficient operation. Our choice of hardware \nwas dictated by the need for substantial computational power, primarily \ndue to the large datasets and complex neural network models involved \nin Arabic handwriting recognition. \n \nInitially, we considered using Google Colab for training our models. \nHowever, we encountered several limitations that made this option \nimpractical: \n \n1. Internet Dependence: Google Colab requires a constant internet \nconnection, which isn't always available. This limitation posed \nsignificant challenges for our development process, especially in \nenvironments with unstable connectivity. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0058.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0058.png",
+  "ocr_fallback": true
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 7,
+  "text": " \nABSTRACT\n \n7 \nABSTRACT \n \n \nThis graduation project, titled \"Arabic Handwriting Recognition,\" \nwas undertaken by a team of 11 students at the Faculty of Engineering, \nSuez Canal University, under the supervision of Prof. Khalid Abd El Salam. \nThe project's primary objective was to develop a system capable of \nrecognizing and digitizing handwritten Arabic scripts. The system was \ndesigned to convert various types of documents, such as scanned paper \ndocuments, PDF files, or images captured by a digital camera, into \neditable and searchable data. \n \nThe project involved several stages, including data collection and \npreparation, system planning and design, system implementation, AI \ntraining, and results analysis. The team utilized various techniques and \ntechnologies, such as image preprocessing, character recognition \nmodels, Convolutional Neural Networks (CNNs), Recurrent Neural \nNetworks (RNNs), and deep learning algorithms. \n \nDespite facing challenges such as the complexity of Arabic calligraphy, \nvariations in writing styles, and the lack of publicly available standardized \ndatasets for handwritten Arabic text, the team successfully developed a \nsystem that achieved high levels of accuracy and robustness in \nrecognizing handwritten Arabic text. The project not only contributes to \nthe field of Optical Character Recognition (OCR) but also opens up new \navenues for future research and development in the specialized subset \nof Arabic Handwriting Recognition (AHR). \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0007.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0007.png",
+  "ocr_fallback": true
+}

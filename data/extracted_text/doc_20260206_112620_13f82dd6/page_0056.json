@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 56,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n56 \n4.2.2.1 Convolutional Neural Network (CNN) \n \n \nA convolutional neural network (CNN) shown in Figure 4.11 [61] is a \ncategory of machine learning model [62], namely a type of deep learning \nalgorithm well suited to analyzing visual data [63][30]. They are \ndistinguished from other neural networks by their superior performance \nwith image, speech, or audio signal inputs classifying and dealing with \nthem. The general layers of a CNN are: \n \n Convolutional layers & Pooling layers which are used for feature \nextraction of the images \n Fully connected (FC) layer which provides the output or the \nclassification \n \n \nFigure 4.11: Demonstration of CNN Layers and Architecture \n \n4.2.2.2 Recurrent Neural Network (RNN) \n \n \nA recurrent neural network (RNN)[31] is a type of artificial neural \nnetwork which uses sequential data or time series data [64][65][66]. \nThese deep learning algorithms are commonly used for ordinal or \ntemporal problems, such as language translation, natural language \nprocessing (NLP), and speech recognition [67][68]. They are \ndistinguished by their “memory” as they take information from prior \ninputs to influence the current input and output. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0056.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0056.png",
+  "ocr_fallback": true
+}

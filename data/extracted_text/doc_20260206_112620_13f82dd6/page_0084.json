@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 84,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n84 \nnewer architectures, VGG19 remains highly effective due to its ability to \nextract detailed features from images, making it a strong contender for \ntasks requiring precise image classification and feature extraction, \nincluding applications in object detection and recognition. \n \n \nFigure 7.4: VGG19 Architecture \n \n7.2.2.3 ResNet152 \n \n \nResNet152, part of the Residual Network (ResNet) family, \nrepresents a significant advancement in deep learning architectures and \nits architecture shown in Figure 7.5 [99], particularly for tasks like image \nrecognition and classification. Developed by Microsoft Research, \nResNet152 is distinguished by its deep structure comprising 152 layers, \nincluding residual blocks that mitigate the vanishing gradient problem in \ndeep networks. This architecture introduces skip connections, or \nshortcuts, that allow gradients to flow more directly during training, \nenabling efficient learning of complex features. ResNet152's design \nleverages residual learning principles to achieve state-of-the-art \nperformance on various benchmarks, demonstrating robustness and \nscalability in handling large-scale datasets. Its depth and skip \nconnections enhance model accuracy by facilitating the training of \ndeeper networks without sacrificing computational efficiency, making \nResNet152 a pivotal architecture in advancing the capabilities of deep \nlearning models for challenging tasks in computer vision and beyond. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0084.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0084.png",
+  "ocr_fallback": true
+}

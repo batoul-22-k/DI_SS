@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 52,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n52 \n \n \nFigure 4.6: Main Page of Labeling APP \n \n \nThe app helps in manual data Labeling as Users are empowered to \nprovide precise labels for each image via the intuitive interface. This \nmanual labeling process ensures data accuracy and reliability, which in \nturn significantly enhances the model's precision and overall \neffectiveness. \n  \nTo enhance user experience, the app supports a pagination feature that \norganizes image viewing into manageable subsets per page. This \nfeature simplifies the labeling process by allowing users to smoothly \nnavigate between pages, facilitating efficient viewing and labeling of a \nlarger image set.  \n \nAn essential feature of our app is its capability to export labeled data into \na CSV file. This export functionality is instrumental for model training, \nproviding a structured and accessible dataset that contributes to the \noptimization of the training process. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0052.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0052.png",
+  "ocr_fallback": true
+}

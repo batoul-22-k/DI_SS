@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 51,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n51 \n \nFigure 4.4: PHP Database Connection Diagram \n \n4.2.1.2.2 Image-Tag App Details \n \n \nOur app efficiently loads and displays images sourced from a \nspecified directory, presenting them in a user-friendly interface tailored \nfor seamless labeling. This interface allows users to input accurate labels \ndirectly, with the entered data promptly saved into the database for \nstreamlined data management. \n \n \nFigure 4.5: Main Page of Labeling APP \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0051.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0051.png",
+  "ocr_fallback": true
+}

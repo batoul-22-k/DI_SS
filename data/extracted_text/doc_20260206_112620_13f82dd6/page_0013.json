@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 13,
+  "text": " \nLIST OF FIGURES\n \n13 \nFigure 7.1: Our Model’s Approach ................................................................... 81 \nFigure 7.2: Samples of Initial Dataset Showing Arabic Words .................. 82 \nFigure 7.3: EfficientNetB1 Architecture ......................................................... 83 \nFigure 7.4: VGG19 Architecture...................................................................... 84 \nFigure 7.5: ResNet152 Architecture ............................................................... 85 \nFigure 7.6: ResNet152 Performance Throughout the Epochs .................. 87 \nFigure 7.7: Example of Cosine Learning Rate Scheduler Effect ...............89 \nFigure 7.8: ResNet50V2 Performance on The Larger Dataset ................ 90 \nFigure 7.9: Demonstrating Transfer Learning Technique .......................... 91 \nFigure 7.10: ResNet50V2 Trained on Alphabet from KHATT Dataset ..... 92 \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0013.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0013.png",
+  "ocr_fallback": true
+}

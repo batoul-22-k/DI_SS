@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 50,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n50 \nis then sent to the client. The client receives the results of the script but \nremains unaware of the underlying code [59]. \n \nPHP is supported by a large community of developers who continuously \ncontribute to its development and maintenance, PHP benefits from the \nadvantages of being open source. Developers have access to the source \ncode and can modify and customize it to suit their needs. Additionally, \nPHP supports object-oriented programming (OOP), allowing developers \nto create reusable code and streamline development processes. \n \nOne of PHP's strengths is its low learning curve. Its simple syntax, similar \nto C and other popular programming languages, allows developers to \nquickly learn and start building web applications. \n \nA key feature of PHP is its rich set of built-in functions and libraries for \nvarious tasks. Whether working with databases, handling files, or \nprocessing forms, PHP offers functions that can significantly speed up \ndevelopment. \n \nPHP provides robust features and functions for efficient data storage \nand retrieval. PHP supports a wide range of databases, including MySQL, \nPostgreSQL, SQLite, and Oracle. It offers built-in functions like mysqli \nand PDO (PHP Data Objects) that simplify connecting to databases, \nexecuting queries, and ensuring secure and reliable data access. PHP's \nseamless integration with databases through its OOP capabilities allows \ndevelopers to create classes and objects representing database tables, \nmaking it easier to interact with data and perform CRUD (Create, Read, \nUpdate, Delete) operations. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0050.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0050.png",
+  "ocr_fallback": true
+}

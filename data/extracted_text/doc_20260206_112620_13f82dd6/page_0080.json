@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 80,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n80 \nCHAPTER 7 AI SYSTEM IMPLEMENTATION \n7.1 Our Model’s Methodology \n \n \nOur model for Arabic handwriting recognition project as shown in \nFigure 7.1 begins with the Image input layer, which takes 64x64 images. \nThese inputs are then fed into a CNN that extracts core features from the \nimages. The model further processes these features through a Dense \nLayer, providing a meaningful representation of the input. Following \nthis, a Batch Normalization layer stabilizes the network by \nnormalizing the output of the dense layer. A Dropout Layer is used to \nreduce overfilling by ignoring a fraction of the input. The Bi-LSTM \n(RNN) layer is critical for analyzing sequences of the input image, \nmaking it ideal for recognizing the sequential nature of Arabic \nhandwriting. The output of the Bi-LSTM is stabilized by another Batch \nNormalization layer, followed by another Dropout Layer. The \nmodel then uses a Softmax Layer to generate the predictive output, \nensuring accurate transcription of the handwritten input. The CTC Loss \nLayer forms the final part of the network, handling the sequence and \nreducing the error percentage by accurately calculating the CTC loss \nand providing feedback for improved performance. The model’s output \nis generated after the CTC Loss Layer, providing an accurate \nsequence of characters that can be used as the final output for the \nArabic handwriting recognition. \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0080.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0080.png",
+  "ocr_fallback": true
+}

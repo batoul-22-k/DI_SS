@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 62,
+  "text": "CHAPTER 5 \nAI SYSTEM\n \n62 \n \nCHAPTER 5 AI SYSTEM \n \n \nDeveloping machine learning models for handwriting recognition \ninvolves several key stages. Initially, a suitable dataset is collected and \nprepared, including data cleaning, labeling, and augmentation to \nenhance generalization. Next, various model architectures are tested to \nidentify the best fit for the task, optimizing configurations and \nhyperparameters. Training the model is an iterative process requiring \ncareful tuning and validation. Techniques like transfer learning can \nfurther improve performance by leveraging pre-trained models. \nThroughout development, performance metrics are continually \nevaluated to ensure the model meets accuracy and reliability standards \nand Figure 5.1 [77] shows the relation between the training data and the \nmodel. \n \n \nFigure 5.1: Model Development Process \n \n5.1 Data Collection & Preparation \n \n \nDeveloping a robust handwriting recognition model begins with \nthe meticulous collection and preparation of a comprehensive dataset. \nThis process involves curating a diverse array of samples that \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0062.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0062.png",
+  "ocr_fallback": true
+}

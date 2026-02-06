@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 27,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n27 \n1.3.5.2 Tesseract OCR \n \n \nTesseract OCR [38] is currently an open-source OCR engine \noriginally developed by Hewlett-Packard (HP)[39] and later maintained \nby Google [40]. It is widely used for text recognition in various \napplications and has been integrated into numerous software projects \nand applications. \n \nKey Features: \n It’s Open Source; meaning anyone can use it or develop it further. \n Tesseract OCR is known for its high accuracy in recognizing \nprinted text in images, including complex fonts and languages. \n Language Support \n \nLimitations: \n Very limited support for handwriting recognition, especially with \nArabic. \n It has a somewhat complex setup. \n \n1.3.5.3 Sakhr \n \n \nSakhr [41] is a commercial software made by Sakhr Software, it \nsupports the Arabic language or the languages that use Arabic \ncharacters such as Farsi, Urdu Pashto. Sakhr claimed at the time to be \nthe best available OCR for Arabic. According to US evaluators, Sakhr had \n99.8% accuracy for the documents with high-quality images. \n \nKey Features: \n High accuracy for Arabic script recognition. \n Supports multiple languages using Arabic script. \n Recognizes both printed and handwritten text. \n Provides both online and offline recognition. \n \nLimitations: \n High cost due to being commercial software. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0027.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0027.png",
+  "ocr_fallback": true
+}

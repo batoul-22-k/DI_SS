@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 41,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n41 \n \nFigure 3.4: Example of word segmentation \n \nFigure 3.5 Summarizes the system procedure in a diagram. \n \n \nFigure 3.5: Diagram of histogram-based segmentation system \n \n3.2.2 Issues with Histogram Projection Segmentation \n \n \nDuring the preprocessing stage, we encountered two main \nchallenges \nwith \nthe \nhistogram \nprojection-based \nsegmentation \napproach. These problems are outlined as follows: \n \nOne major limitation is the inability to effectively handle skewed or \nslanted text lines. The vertical histogram, which is the foundation of this \ntechnique, relies on the assumption that text lines are oriented \nhorizontally. However, in the presence of skewed text, the histogram \npeaks may not accurately represent the true line positions, leading to \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0041.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0041.png",
+  "ocr_fallback": true
+}

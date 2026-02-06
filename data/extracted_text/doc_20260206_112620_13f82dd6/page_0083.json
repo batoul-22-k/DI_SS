@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 83,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n83 \njointly rather than independently, EfficientNetB1 optimizes both \ncomputational efficiency and model performance for tasks such as \nArabic handwriting recognition. Increased depth allows the network to \nlearn intricate hierarchies of features essential for interpreting diverse \nArabic characters. Expanded width enhances its capacity to process \ninformation in parallel, crucial for capturing nuances in handwritten \nscript. Resolution scaling ensures efficient utilization of computational \nresources by adapting input image sizes to maximize accuracy without \nunnecessary computational overhead. This integrated approach \nenables EfficientNetB1 to excel in recognizing Arabic handwriting by \neffectively balancing model complexity and efficiency, making it a \nrobust choice for real-world applications requiring precise character \nrecognition in Arabic script and the Figure 7.3 [97] shows the \nEfficientNetB1 architecture. \n \n \nFigure 7.3: EfficientNetB1 Architecture \n \n7.2.2.2 VGG19 \n \n \nVGG19 is a deep convolutional neural network architecture shown \nin Figure 7.4 [98], renowned for its simplicity and effectiveness in image \nrecognition tasks. Developed by the Visual Geometry Group at Oxford, \nVGG19 consists of 19 layers, including 16 convolutional layers and 3 fully \nconnected layers. Its design is characterized by using small 3x3 \nconvolutional filters throughout the network, which allows it to capture \nintricate features in input images. VGG19's architecture emphasizes \ndepth and homogeneous filter sizes, facilitating a straightforward \ninterpretation and implementation. Despite its simplicity compared to \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0083.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0083.png",
+  "ocr_fallback": true
+}

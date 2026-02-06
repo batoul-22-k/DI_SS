@@ -23,6 +23,7 @@ def run_ocr_pipeline(pdf_path: Path, doc_id: str) -> List[Path]:
     image_paths = pdf_to_images(pdf_path, raw_dir, dpi=SETTINGS.pdf_render_dpi)
 
     outputs: List[Path] = []
+    use_pdf_text_fallback = False
     for page_index, image_path in enumerate(image_paths, start=1):
         image_bgr = load_image(str(image_path))
         cleaned = preprocess_image(image_bgr, deskew=SETTINGS.preprocess_deskew)
@@ -30,7 +31,19 @@ def run_ocr_pipeline(pdf_path: Path, doc_id: str) -> List[Path]:
         pre_path = pre_dir / image_path.name
         save_image(str(pre_path), cleaned)
 
-        ocr_payload = ocr_image(pre_path)
+        if use_pdf_text_fallback:
+            ocr_payload = _pdf_text_payload(pdf_path, page_index)
+        else:
+            try:
+                ocr_payload = ocr_image(pre_path)
+            except Exception as exc:
+                if isinstance(exc, NotImplementedError) or (
+                    "ConvertPirAttribute2RuntimeAttribute" in str(exc)
+                ):
+                    use_pdf_text_fallback = True
+                    ocr_payload = _pdf_text_payload(pdf_path, page_index)
+                else:
+                    raise
         lines: List[Dict[str, object]] = []
 
         for detail in ocr_payload.get("details", []):
@@ -58,6 +71,7 @@ def run_ocr_pipeline(pdf_path: Path, doc_id: str) -> List[Path]:
             "entities": entities,
             "image_path": _rel_path(image_path),
             "preprocessed_image_path": _rel_path(pre_path),
+            "ocr_fallback": use_pdf_text_fallback,
         }
 
         out_path = out_dir / f"page_{page_index:04d}.json"
@@ -72,3 +86,21 @@ def _rel_path(path: Path) -> str:
         return str(path.relative_to(PROJECT_ROOT))
     except ValueError:
         return str(path)
+
+
+def _pdf_text_payload(pdf_path: Path, page_index: int) -> Dict[str, object]:
+    """Fallback: extract digital text directly from the PDF page."""
+    try:
+        import fitz  # PyMuPDF
+    except Exception:
+        return {"text": "", "details": []}
+
+    try:
+        with fitz.open(pdf_path) as doc:
+            if page_index - 1 < 0 or page_index - 1 >= doc.page_count:
+                return {"text": "", "details": []}
+            page = doc.load_page(page_index - 1)
+            text = page.get_text("text") or ""
+            return {"text": text, "details": []}
+    except Exception:
+        return {"text": "", "details": []}

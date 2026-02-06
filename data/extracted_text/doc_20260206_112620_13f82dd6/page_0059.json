@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 59,
+  "text": "CHAPTER 4 \nSYSTEM DEVELOPMENT\n \n59 \n2. Data Upload Constraints: The datasets we used were substantial in \nsize, making it time-consuming and inefficient to upload them to \nGoogle Colab. Handling such large volumes of data locally was \nmore feasible. \n3. Free Tier Limitations: The free tier of Google Colab offers limited \nusage time, which often interrupts our training sessions. This \nrestriction necessitated a more reliable solution to ensure \ncontinuous and uninterrupted model training. \n \nGiven these challenges, we opted to work locally, which required a \npowerful GPU. Our initial setup included a GPU with 6GB of VRAM, but \nthis proved insufficient for our needs. We needed a GPU with at least the \ncapabilities of the Nvidia Tesla T4, which is provided in the free tier of \nGoogle Colab. After evaluating various options, we decided on the \nNvidia RTX 3060, which provided the necessary computational power \nand memory capacity to handle our training requirements efficiently. \n \nTo implement the recognition system, we used Python and TensorFlow \n[75]. These tools were selected because of their efficiency and the \nrobust libraries available for deep learning. TensorFlow offered \nextensive support for neural network implementation and training, \nmaking it an ideal choice for our project. \n \n4.2.2.6 Nvidia’s RTX 3060 \n \n \nThe Nvidia RTX 3060 played a crucial role in the development and \ntraining of our Arabic handwriting recognition system. With 12GB of \nVRAM [76], it offered the necessary memory capacity to handle large \ndatasets and complex neural network models without running into \nmemory limitations. The GPU's architecture allowed for efficient parallel \nprocessing, significantly reducing the training time compared to our \nprevious hardware setup. \n \nThis upgrade was essential for achieving the performance and accuracy \nrequired for our system. The additional VRAM enabled us to experiment \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0059.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0059.png",
+  "ocr_fallback": true
+}

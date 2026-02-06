@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 33,
+  "text": "CHAPTER 2 \nSYSTEM PLANNING\n \n33 \n2.2.2 Segmentation Of Paragraphs \n \n \nCreating a model to extract text from entire paragraphs in Arabic \nOCR involves handling an enormous range of variations in paragraph \nstructure, making it impracticable to create a model that can classify and \nextract text from every possible paragraph directly. The infinite \nvariations necessitate a highly generalized model, making any small \namount of data completely impractical to work with. To recognize text \nin paragraphs, the process should involve preprocessing; starting with \nline segmentation to isolate individual lines of text, word segmentation \nto break down lines into “islands”, meaning words or sub-words, using \nspace detection algorithms.\n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0033.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0033.png",
+  "ocr_fallback": true
+}

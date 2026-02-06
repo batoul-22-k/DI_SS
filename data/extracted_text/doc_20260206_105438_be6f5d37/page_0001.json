@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_105438_be6f5d37",
+  "page": 1,
+  "text": "Arabic OCR Leaderboard (2025–2026)\nRank\nOCR Tool / Model\nKey Notes on Arabic\nAccuracy & Usability\nSize / OS\nOutput\n1\nDeepSeekOCR\n✓Excellent\ncharacter/word\nrecognition, preserves\nsemantic flow, minimal\nerrors, readable structure.\nGreat for educational\ntexts, exam passages, and\nstructured content.\n6.22 GB, Heavy\nOutputs Markdown\n2\nQARI OCR\n✓Strong for Arabic\nscript words sometimes\nmisread. Needs\npost-processing for clean\ntext.\n4.12 GB,\nVision-Language\n(Qwen2-VL-2B-\nInstruct),\nfine-tuned on\nArabic,\nLightweight\nOutput sometimes\nfragmented with HTML\nnoise\n3\nPaddleOCR VL\n✓Very good for Arabic,\nespecially on structured\ndocuments and tables.\nSlightly behind\nDeepSeek/QARI in\ncharacter-level accuracy,\nbut excellent for layout\npreservation.\n1.79 GB,\nLightweight,\nRequires\nWSL/Linux\nOutputs Structured Text\n4\nPaddleOCR v5\n☞Good Arabic\nrecognition on printed\ntext; tested on Windows\nbut does not show top\nperformance.\nLightweight,\nWindows\ncompatible\n5\nTesseract OCR\n✗Lowest accuracy\n( 74–80% on Arabic).\nStruggles with cursive,\ndiacritics, and word\nligatures. Only suitable\nfor very simple printed\ntext.\nLightweight,\nCross-platform\nOutputs Plain Text\n1\n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_105438_be6f5d37\\raw\\page_0001.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_105438_be6f5d37\\preprocessed\\page_0001.png",
+  "ocr_fallback": true
+}

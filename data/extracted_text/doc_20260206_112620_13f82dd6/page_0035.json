@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 35,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n35 \nCHAPTER 3 SYSTEM DESIGN \n \n \nOur system comprises two primary components: an image \npreprocessing module and a character recognition model. The \npreprocessing module is crucial because the recognition model is \noptimized to handle only the smallest possible segments of the image. \nIn our Arabic Handwritten OCR Project, the preprocessing step prepares \nand segments the input images. This allows the recognition model to be \ntrained more practically on a smaller data while achieving high accuracy. \n \n3.1 Geometric Unwrapping \n \n \nGeometric unwrapping is a crucial preprocessing step in Arabic \nHandwritten OCR to ensure that the text is properly aligned and \nreadable for the OCR system. The main challenge addressed here is the \ndistortion caused when images of handwritten text are taken at an \nangle, which can lead to skewed and curved text lines. To correct this, \nwe need to straighten the text lines and flatten the paper surface. \n \n3.1.1 The Naive Approach \n \n \nInitially, we employed a straightforward method using OpenCV to \ndetect and correct the skew in our images. This approach involved \ndetecting straight lines within the image and using these lines to crop \nand align the image. Specifically, we used OpenCV's Hough Line \nTransform to detect the edges of the paper [45]. This method relies on \nthe assumption that the paper's edges are straight and can be used as a \nreference to realign the text. The steps were as follows: \n \n1. Convert the image to grayscale to reduce complexity. \n2. Apply edge detection using the Canny edge detector. \n3. Use the Hough Line Transform to identify the lines in the image. \n4. Identify the lines that correspond to the paper's borders. \n5. Crop and warp the image based on these lines to obtain a \nstraightened text image. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0035.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0035.png",
+  "ocr_fallback": true
+}

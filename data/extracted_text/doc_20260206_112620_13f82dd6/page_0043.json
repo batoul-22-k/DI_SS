@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 43,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n43 \n \nFigure 3.6: Sample Results of CRAFT \n \n \nOnce the text regions are identified using CRAFT, thresholding is \napplied to these regions to enhance the visibility of the text. \nThresholding is a process that converts grayscale images into binary \nimages by turning all pixels below a certain threshold value to black and \nall pixels above that threshold to white. This binarization simplifies \nfurther processing steps by reducing the complexity of the image and \nemphasizing the text areas. \n \nAfter thresholding, histogram segmentation is employed to segment \nthe image into individual words or sub-words. This involves analyzing the \nvertical and horizontal histograms of pixel intensities to detect gaps and \nboundaries between text regions. Specifically, repeated vertical \ncolumns of pixels are analyzed from right to left. Columns with a sum of \nzero indicate empty spaces, which are used as cut points to segment \nthe text. This method effectively breaks down the text into manageable \nparts for further processing. \n \nThis method addresses both the issue of image angle and paragraph size \neffectively. The initial challenge was correcting the image angle to \nensure all text lines were horizontal and properly aligned. Using CRAFT, \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0043.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0043.png",
+  "ocr_fallback": true
+}

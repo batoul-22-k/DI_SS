@@ -1,17 +1,50 @@
 ﻿"""PaddleOCR wrapper for text extraction."""
 from __future__ import annotations
 
+import os
 from pathlib import Path
-from typing import Dict, List, Tuple
+from typing import Dict, List, Optional, Tuple
+
+# Work around OneDNN/PIR executor issues on some Paddle builds.
+# Allow environment overrides if the user has already set these.
+os.environ.setdefault("FLAGS_use_mkldnn", "0")
+os.environ.setdefault("FLAGS_enable_pir", "0")
+os.environ.setdefault("FLAGS_enable_mkldnn", "0")
+os.environ.setdefault("FLAGS_enable_pir_api", "0")
+os.environ.setdefault("FLAGS_use_pir_api", "0")
+os.environ.setdefault("FLAGS_enable_new_ir", "0")
+os.environ.setdefault("FLAGS_use_new_ir", "0")
+os.environ.setdefault("FLAGS_new_executor", "0")
+os.environ.setdefault("FLAGS_use_new_executor", "0")
 
 from paddleocr import PaddleOCR
 
-_ocr_engine: PaddleOCR | None = None
+_ocr_engine: Optional[PaddleOCR] = None
 
 
 def get_ocr_engine() -> PaddleOCR:
     global _ocr_engine
     if _ocr_engine is None:
+        try:
+            import paddle  # type: ignore
+
+            paddle.set_flags(
+                {
+                    "FLAGS_use_mkldnn": False,
+                    "FLAGS_enable_mkldnn": False,
+                    "FLAGS_enable_pir": False,
+                    "FLAGS_enable_pir_api": False,
+                    "FLAGS_use_pir_api": False,
+                    "FLAGS_enable_new_ir": False,
+                    "FLAGS_use_new_ir": False,
+                    "FLAGS_new_executor": False,
+                    "FLAGS_use_new_executor": False,
+                }
+            )
+            paddle.set_device("cpu")
+        except Exception:
+            # Paddle may not be importable or flags may not exist for this build.
+            pass
         _ocr_engine = PaddleOCR(use_angle_cls=True, lang="en")
     return _ocr_engine
 
@@ -19,7 +52,8 @@ def get_ocr_engine() -> PaddleOCR:
 def ocr_image(image_path: Path) -> Dict[str, object]:
     """Run OCR on a single image and return text and line details."""
     engine = get_ocr_engine()
-    result = engine.ocr(str(image_path), cls=True)
+    # Newer PaddleOCR pipeline versions don't accept the `cls` kwarg on predict/ocr.
+    result = engine.ocr(str(image_path))
 
     lines: List[str] = []
     details: List[Dict[str, object]] = []

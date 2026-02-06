@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 103,
+  "text": " \nREFERENCES\n \n103 \nSci, \nvol. \n179, \npp. \n507–514, \n2021, \ndoi: \nhttps://doi.org/10.1016/j.procs.2021.01.034. \n[54] Y. Baek, B. Lee, D. Han, S. Yun, and H. Lee, “Character Region \nAwareness for Text Detection,” in Proceedings of the IEEE \nConference on Computer Vision and Pattern Recognition, 2019, pp. \n9365–9374. \n[55] D. Madhugiri, “Extract Text from Images Quickly Using Keras-OCR \nPipeline,” \nAnalytics \nVidhya, \n2022, \n[Online]. \nAvailable: \nhttps://www.analyticsvidhya.com/blog/2022/09/extract-text-\nfrom-images-quickly-using-keras-ocr-pipeline/ \n[56] M. PRATA, “Keras OCR Text Recognition,” Kaggle, Sep. 20, 2022. \n[Online]. \nAvailable: \nhttps://www.kaggle.com/code/mpwolke/keras-ocr-text-\nrecognition \n[57] S. A. Mahmoud et al., “KHATT: Arabic Offline Handwritten Text \nDatabase,” in 2012 International Conference on Frontiers in \nHandwriting \nRecognition, \n2012, \npp. \n449–454. \ndoi: \n10.1109/ICFHR.2012.224. \n[58] S. A. Mahmoud et al., “KHATT: An open Arabic offline handwritten \ntext database,” Pattern Recognit, vol. 47, no. 3, pp. 1096–1112, Feb. \n2014, doi: 10.1016/j.patcog.2013.08.009. \n[59] D. Powers, PHP Solutions: Dynamic Web Design Made Easy. Apress, \n2024. \n[60] K. W. Hon, “Artificial neural networks,” in Technology and Security \nfor Lawyers and Other Professionals, Edward Elgar Publishing, \n2024, pp. 490–511. \n[61] A. Hashemi, G. Orzechowski, A. Mikkola, and J. McPhee, “Multibody \ndynamics and control using machine learning,” Multibody Syst Dyn, \nvol. 58, pp. 1–35, Feb. 2023, doi: 10.1007/s11044-023-09884-x. \n[62] M. F. Ijaz and M. Woźniak, “A Survey of Deep Convolutional Neural \nNetworks Applied for Prediction of Plant Leaf Diseases,” Sensors, \nvol. 21, no. 14, p. 4749, 2021, doi: 10.3390/s21144749. \n[63] C. Xiao and J. Sun, “Deep Neural Networks (DNN),” in Introduction \nto Deep Learning for Healthcare, Springer, Cham, 2021. doi: \n10.1007/978-3-030-82184-5_4. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0103.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0103.png",
+  "ocr_fallback": true
+}

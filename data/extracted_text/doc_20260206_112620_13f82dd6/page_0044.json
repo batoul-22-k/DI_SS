@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 44,
+  "text": "CHAPTER 3 \nSYSTEM DESIGN\n \n44 \nthe model can detect text regions even if the image is taken at an angle, \nallowing for more flexible input conditions. Additionally, the \nsegmentation approach helps manage varying paragraph sizes by \nprecisely identifying text boundaries without relying on predefined \ntemplates or extensive preprocessing, Figure 3.7 shows the diagram of \nthe CRAFT based system. \n \n \nFigure 3.7: Diagram of the final segmentation system \n \n \nAlthough applying CRAFT introduces an additional computational \nstep, the overall accuracy and robustness of the OCR system are \nsignificantly improved, making it a worthwhile compromise. \n \nIn summary, the integration of the CRAFT model significantly enhances \nthe preprocessing for Arabic handwritten OCR. By accurately detecting \ntext regions and handling image angles, CRAFT ensures proper text \nalignment. The histogram segmentation technique further refines the \ninput by precisely cutting the smallest unit of text possible. This \npreprocessing pipeline produces clean, well-segmented text images, \nperfectly primed for the recognition system. Overall, these steps ensure \nhigher accuracy and reliability in the OCR outputs. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0044.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0044.png",
+  "ocr_fallback": true
+}

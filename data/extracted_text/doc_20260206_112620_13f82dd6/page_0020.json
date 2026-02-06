@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 20,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n20 \nOnline handwriting recognition has several distinguishing features that \nmust be exploited to get more accurate results than online recognition \n[16][17][18]. \n \n It is adaptive: immediate feedback is given by the writer whose \ncorrections can be used to further train the recognizer. \n \n It is a real time process: It captures the temporal or dynamic \ninformation of the writing. This information consists of the number \nof pen strokes, the order of pen-strokes. The   direction of the \nwriting for each pen stroke and the speed of the writing within \neach pen stroke. \n \n Very little preprocessing is required. The operations such as \nsmoothing, and feature extraction operations such as the \ndetection of line orientations corner loops are easier and faster \nwith the pen trajectory data than on pixel images. \n \n Segmentation is easy: Segmentation operations are facilitated by \nusing the pen lift information particularly for hand printed \ncharacters. \n \nOn the other hand, the disadvantages of the online character \nrecognition are as follows: \n \n The writer requires special equipment which is not as comfortable \nand natural to use as pen and paper. \n It cannot be applied to documents printed or written on papers, \npunching is much faster and easier than handwriting for small size \nalphabet such as English or Arabic. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0020.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0020.png",
+  "ocr_fallback": true
+}

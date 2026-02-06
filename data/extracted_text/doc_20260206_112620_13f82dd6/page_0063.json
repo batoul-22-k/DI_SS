@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 63,
+  "text": "CHAPTER 5 \nAI SYSTEM\n \n63 \nencompass various handwriting styles and nuances essential for training \nour models effectively. For our endeavor, we focused on integrating \ndatasets such as KHATT for words and sub-words, and AHAWP \nalongside Arabic Handwritten Characters as Alphabetical Arabic \nCharacters datasets. Each dataset was meticulously cleaned, accurately \nlabeled, and split into training and validation sets to optimize training and \nevaluate model performance. To enhance the dataset's variability and \nprepare our models for real-world scenarios, we employed advanced \ntechniques like data augmentation. These efforts were instrumental in \nensuring our models could generalize well and achieve high accuracy in \nrecognizing Arabic handwriting, as evidenced by the results depicted in \nFigure 5.2. \n \n5.1.1 Dataset Collection and Preparation \n \n \nWe gathered datasets including KHATT [57], AHAWP [78], and \nArabic Handwritten Characters to cover diverse handwriting styles. \nData was split into training (80%) and validation (20%) sets to optimize \nmodel training and evaluate performance [79]. \n \nEach dataset underwent rigorous cleaning and accurate labeling to \nensure high-quality input for training. \n \n5.1.2 Data Augmentation Techniques \n \n \nWe Implemented image rotation by +10 and -10 degrees to \nenhance dataset diversity. This step was crucial in preventing overfitting \nby exposing the model to Increased variability of training samples [80]. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0063.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0063.png",
+  "ocr_fallback": true
+}

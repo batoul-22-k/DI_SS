@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 68,
+  "text": "CHAPTER 5 \nAI SYSTEM\n \n68 \n \nFigure 5.5: Bi-LSTM Architecture \n \nThe BiLSTM (Bidirectional Long Short-Term Memory) architecture \nconsists of two LSTM layers: one processes sequences in a forward \ndirection, and the other processes them in a backward direction. Each \nLSTM unit computes its hidden state based on the input, previous hidden \nstate, and previous cell state. This dual-layer approach allows the \nnetwork to capture dependencies from both past and future contexts \nwithin the sequence, enhancing its understanding of the data. \nThe mathematical formulation of BiLSTMs utilizes sigmoid and tanh \nactivation functions to control the flow of information through the \nnetwork. These activation functions facilitate selective forgetting and \nupdating of information over time, enabling the network to maintain \nlong-term dependencies within sequences. This capability is crucial for \ntasks that require a nuanced understanding of sequential data, as it \nallows the network to effectively handle and learn from complex \npatterns. \n \nIn handwriting recognition, the BiLSTM architecture is ideal for modeling \ncharacter sequences in words, where the context from both preceding \nand succeeding characters influences interpretation. This makes it \nparticularly effective for recognizing Arabic handwriting, as it can \ncapture the intricate relationships between characters within words. By \nleveraging the bidirectional processing capability, BiLSTMs enhance the \naccuracy and robustness of handwriting recognition systems. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0068.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0068.png",
+  "ocr_fallback": true
+}

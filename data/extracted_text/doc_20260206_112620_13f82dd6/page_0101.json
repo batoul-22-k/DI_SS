@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 101,
+  "text": " \nREFERENCES\n \n101 \n[32] S. Hochreiter and J. Schmidhuber, “Long Short-term Memory,” \nNeural Comput, \nvol. \n9, \npp. \n1735–1780, \nMar. \n1997, \ndoi: \n10.1162/neco.1997.9.8.1735. \n[33] A. Mostafa et al., An End-to-End OCR Framework for Robust \nArabic-Handwriting Recognition using a Novel Transformers-\nbased Model and an Innovative 270 Million-Words Multi-Font \nCorpus of Classical Arabic with Diacritics. 2022. \n[34] N. I. Youssef and N. Abd-Alsabour, “A Review on Arabic Handwriting \nRecognition,” Journal of Southwest Jiaotong University, vol. 57, no. \n6, pp. 746–756, Dec. 2022, doi: 10.35741/issn.0258-2724.57.6.66. \n[35] M. S. Kasem, M. Mahmoud, and H.-S. Kang, “Advancements and \nChallenges \nin \nArabic \nOptical \nCharacter \nRecognition: \nA \nComprehensive Survey,” ArXiv, vol. 2312.11812v1, 2023, [Online]. \nAvailable: https://arxiv.org/html/2312.11812v1 \n[36] A. Alaei, V. Bui, D. Doermann, and U. Pal, “Document Image Quality \nAssessment: A Survey,” ACM Comput. Surv., vol. 56, no. 2, Sep. \n2023, doi: 10.1145/3606692. \n[37] G. Cloud, “Use Cases for Optical Character Recognition (OCR) on \nGoogle \nCloud.” \nGoogle. \n[Online]. \nAvailable: \nhttps://cloud.google.com/use-cases/ocr?hl=en \n[38] R. Smith, “An Overview of the Tesseract OCR Engine,” in Ninth \nInternational Conference on Document Analysis and Recognition \n(ICDAR \n2007), \n2007, \npp. \n629–633. \ndoi: \n10.1109/ICDAR.2007.4376991. \n[39] S. V Rice, F. R. Jenkins, and T. A. Nartker, “The Fourth Annual Test of \nOCR Accuracy.”  \n[40] G. C. Blog, “Announcing Tesseract OCR.” Aug. 2006. \n[41] T. Kanungo, G. A. Marton, and O. Bulbul, “Performance evaluation \nof two Arabic OCR products,” in Proc.SPIE, Jan. 1999, pp. 76–83. \ndoi: 10.1117/12.339809. \n[42] A. Carrizo, J. Garbajosa, and G. Molina, “Requirements gathering: \nthe journey,” International Journal of Decision Systems, vol. 23, no. \n4, pp. 667–681, 2014. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0101.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0101.png",
+  "ocr_fallback": true
+}

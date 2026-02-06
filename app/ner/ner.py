@@ -1,16 +1,20 @@
 ﻿"""spaCy NER extraction utilities."""
 from __future__ import annotations
 
-from typing import Dict, List
+from typing import Dict, List, Optional, Any
 
-import spacy
-
-_model = None
+_model: Optional[Any] = None
 
 
 def get_ner_model(model_name: str = "en_core_web_sm"):
     global _model
     if _model is None:
+        try:
+            import spacy  # type: ignore
+        except ImportError as exc:
+            raise RuntimeError(
+                "spaCy is not installed. Install it or disable NER via DI_ENABLE_NER=false."
+            ) from exc
         _model = spacy.load(model_name)
     return _model
 

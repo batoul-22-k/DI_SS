@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 88,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n88 \n58,474 samples post-cleaning and augmentation. This unified dataset \nwas meticulously structured to encompass 36 Arabic letters, with all \nimages standardized to a resolution of 64x64 pixels. This standardization \nensured uniformity in input dimensions across the dataset, essential for \ntraining robust and accurate models capable of recognizing and \ninterpreting Arabic characters across diverse handwritten styles and \nconditions. By incorporating a wide range of characters and maintaining \nconsistent image quality, our dataset provided a comprehensive \nfoundation for developing advanced machine learning models tailored \nfor Arabic character recognition tasks. \n \n7.3.2 Chosen Optimal Architecture: ResNet50V2 \n \n \nWe opted for ResNet50V2 as our optimal model over ResNet152, \ndespite the latter's larger size and higher resolution dataset, due to \nseveral considerations. ResNet50V2 strikes a balance between \nperformance and computational efficiency, making it more feasible for \nscaling up to larger datasets with higher resolutions. To enhance its \ntraining efficacy, we implemented advanced techniques like the “Cosine \nLearning Rate Scheduler”. This scheduler dynamically adjusts the \nlearning rate during training according to a Cosine wave as shown in \nFigure 7.7 [100], potentially improving model convergence and \ngeneralization. \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0088.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0088.png",
+  "ocr_fallback": true
+}

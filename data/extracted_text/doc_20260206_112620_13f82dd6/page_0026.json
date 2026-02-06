@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 26,
+  "text": "CHAPTER 1 \nINTRODUCTION\n \n26 \n1.3.5 Comparison with Existing Work \n \n \nExisting AHR systems have shown promising results [35][36], but \nchallenges remain in unconstrained Arabic handwriting recognition. Our \napproach uses state-of-the-art deep learning techniques to address \nvariability in handwriting styles through robust feature representations \nand model architectures. Despite the significant variation in Arabic \nhandwriting, making accurate OCR recognition difficult, several \nprograms partially address this issue, which we will review. \n \n1.3.5.1 Google Lens \n \n \nGoogle Lens [37] is a popular OCR application designed to offer \ntext recognition capabilities. It uses image processing and deep learning \nalgorithms to accurately extract text from images captured by the \ndevice's camera. Google Lens can recognize various languages and \nfonts, making it versatile for diverse use cases. \n \nGoogle Lens leverages Google's vast dataset and machine learning \nmodels to continuously improve its accuracy and performance over \ntime. It is available as a standalone app and is also integrated into various \nGoogle services such as Google Photos and Google Assistant. \n \nLimitations: \n Not an open-source application. \n Limited Transparency: This lack of transparency can lead to \nuncertainty about the security and functionality of the software. \n Connectivity Dependency: Some features of Google Lens, such as \nreal-time translation, require an internet connection to function. \n Privacy Concerns. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0026.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0026.png",
+  "ocr_fallback": true
+}

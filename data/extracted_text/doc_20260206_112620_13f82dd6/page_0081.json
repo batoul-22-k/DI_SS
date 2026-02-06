@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 81,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n81 \n \nFigure 7.1: Our Model’s Approach \n \n7.2 Initial Experiments: Prototype Model \n \n \nIn the initial phase of our project, we focused on developing a \nprototype model using a smaller dataset to validate our approach and \nrefine our techniques. This allowed us to quickly iterate and experiment \nwith different Convolutional Neural Network (CNN) architectures. By \ntesting various architectures, we aimed to identify the model that \noffered the best balance between accuracy, computational efficiency, \nand generalization capabilities. Experimenting with these different \narchitectures enabled us to understand their performance in the \ncontext of our specific application, guiding us toward the most suitable \nmodel for further development and deployment. \n \n7.2.1 Initial Dataset \n \n \nFor the initial model prototype, we utilized a subset of the KHATT \ndataset containing 5,159 samples, which we augmented to a total of \n15,477 samples shown in Figure 7.2. This dataset covered 36 Arabic \nletters and included a variety of segmented words and sub-words. As \npart of our preprocessing steps, all images were resized to a uniform \n32x64 resolution. This resizing process ensured consistency in input \ndimensions across the dataset, facilitating efficient training and \nevaluation of our models. By standardizing the image size, we aimed to \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0081.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0081.png",
+  "ocr_fallback": true
+}

@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 95,
+  "text": "CHAPTER 8 \nCONCLUSION AND FUTURE WORK\n \n95 \ngroups, writing styles, and handwriting conditions, such as varying levels \nof pressure, speed, and ink darkness, and if possible, across multiple \nmediums. The development of synthetic datasets or the augmentation \nof existing datasets with techniques like rotation, scaling, and noise \ncould also help improve the model's robustness against real-world \nconditions and make it a powerful tool to be used in real-world \napplications. \n \n8.2.1 Searchable Handwritten Note Taking App \n \n \nA Searchable Handwritten Note Taking App is a mobile or desktop \napplication that allows users to take notes by hand using a stylus or \ntouch screen, and then search and access those notes later using \nkeywords or text recognition. \n8.2.1.1 Key Features \n \n Handwritten Note Taking: This is the core functionality, allowing \nusers to write notes directly on the app's interface using a stylus \nor their finger. \n Ink-to-Text Conversion (OCR): The app uses Optical Character \nRecognition (OCR) technology to convert handwritten notes into \ndigital text. This enables searching and indexing of the content. \n Search Functionality: Users can search for specific keywords or \nphrases within their handwritten notes using the converted text. \n Organization Tools: The app might offer features for organizing \nnotes by tags, categories, or creating folders. \n Cloud Storage and Syncing: Some apps allow storing notes in the \ncloud and syncing them across multiple devices. \n Additional Features: Advanced apps might offer features like \naudio recording alongside handwritten notes, annotation \ncapabilities on imported PDFs, or handwriting recognition in \nmultiple languages. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0095.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0095.png",
+  "ocr_fallback": true
+}

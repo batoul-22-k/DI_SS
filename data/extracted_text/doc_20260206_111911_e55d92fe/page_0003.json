@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_111911_e55d92fe",
+  "page": 3,
+  "text": "5. Train the model\n6. Evaluate the model\nThis container is designed for offline Whisper LoRA training and evaluation.\n3\n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_111911_e55d92fe\\raw\\page_0003.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_111911_e55d92fe\\preprocessed\\page_0003.png",
+  "ocr_fallback": true
+}

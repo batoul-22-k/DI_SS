@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 30,
+  "text": "CHAPTER 2 \nSYSTEM PLANNING\n \n30 \nCHAPTER 2 SYSTEM PLANNING \n \n \nSystem planning is a critical phase in the development of any \nsoftware project. It involves defining the objectives, scope, and \nrequirements of the system to ensure that it meets the needs of its \nusers. In the context of our Arabic Handwritten OCR project, careful \nplanning is essential to handle the complexities of recognizing \nhandwritten Arabic characters and ensuring the system is robust, \naccurate, and user-friendly. \n \n2.1 Requirement Gathering \n \n \nRequirement gathering is the process of identifying the needs and \nconstraints of the stakeholders involved in the project [42]. This phase \ninvolves collecting detailed and specific information to ensure that the \nsystem we develop aligns with the expectations and requirements of its \nusers. \n \nThe primary requirements for our Arabic Handwritten OCR system are \nas follows: \n \n Operate on mobile devices: The program should be optimized to \nrun efficiently on various mobile devices, including smartphones \nand tablets. \n Recognize handwritten Arabic characters from any angle: The \nsystem must accurately recognize handwritten Arabic characters \nregardless of the orientation in which they are written or scanned. \n Preserve errors in the written words without correcting them: The \nOCR system should capture the handwritten text as it is, including \nany mistakes, and not attempt to correct them. This is crucial for \napplications where the original written form, including errors, must \nbe retained, like the automatic exam grading application for \nexample. \n \n \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0030.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0030.png",
+  "ocr_fallback": true
+}

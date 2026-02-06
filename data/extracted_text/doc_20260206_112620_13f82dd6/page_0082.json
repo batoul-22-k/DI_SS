@@ -1,0 +1,11 @@
+{
+  "doc_id": "doc_20260206_112620_13f82dd6",
+  "page": 82,
+  "text": "CHAPTER 7 \nAI SYSTEM IMPLEMENTATION\n \n82 \noptimize computational resources while maintaining the integrity and \nquality of the dataset for accurate character recognition and model \nperformance. \n \n \nFigure 7.2: Samples of Initial Dataset Showing Arabic Words \n \n7.2.2 Experiments And Results \n \n \nIn the pursuit of refining model performance, experimentation \nwith various architectures plays a crucial role. This process involves \nexploring different configurations and designs of neural networks, \nparticularly focusing on convolutional neural networks (CNNs) for tasks \nsuch as image recognition and classification. Each architecture variant \nmay include adjustments in the number of layers, types of layers (e.g., \nconvolutional, pooling, fully connected), activation functions, and \nregularization techniques. By testing multiple architectures, researchers \naim to identify the configuration that optimizes model accuracy, \nefficiency, and generalization capabilities across diverse datasets and \nreal-world scenarios. This iterative exploration allows for the discovery \nof architectures that strike a balance between complexity and \nperformance metrics, ensuring robust and reliable outcomes in machine \nlearning applications. In the initial prototype model using the initial \ndataset we experimented with different CNNs; EfficientNetB1 [94], \nVGG19 [95], and lastly ResNet152 [96]. \n \n7.2.2.1 EfficientNetB1 \n \n \nEfficientNetB1's technical foundation lies in its innovative \napplication of compound scaling, a method that harmonizes the \ndimensions of depth, width (number of channels), and image resolution \nwithin the neural network architecture. By scaling these dimensions \n",
+  "lines": [],
+  "blocks": [],
+  "entities": [],
+  "image_path": "data\\images\\doc_20260206_112620_13f82dd6\\raw\\page_0082.png",
+  "preprocessed_image_path": "data\\images\\doc_20260206_112620_13f82dd6\\preprocessed\\page_0082.png",
+  "ocr_fallback": true
+}
